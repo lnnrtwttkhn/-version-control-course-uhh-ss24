@@ -1,1 +1,1 @@
-Sitemap: {{< var links.site >}}/sitemap.xml
+Sitemap: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sitemap.xml

@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>{{< var links.site >}}/schedule.html</loc>
-    <lastmod>2024-04-02T10:57:25.480Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/schedule.html</loc>
+    <lastmod>2024-04-02T10:59:28.144Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/resources.html</loc>
-    <lastmod>2024-04-02T10:57:22.795Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/resources.html</loc>
+    <lastmod>2024-04-02T10:59:25.423Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/mechanics.html</loc>
-    <lastmod>2024-04-02T10:57:19.547Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/mechanics.html</loc>
+    <lastmod>2024-04-02T10:59:22.508Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session_extraexercise.html</loc>
-    <lastmod>2024-04-02T10:57:15.062Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session_extraexercise.html</loc>
+    <lastmod>2024-04-02T10:59:17.735Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session04.html</loc>
-    <lastmod>2024-04-02T10:57:12.209Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session04.html</loc>
+    <lastmod>2024-04-02T10:59:14.712Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session01.html</loc>
-    <lastmod>2024-04-02T10:57:07.989Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session01.html</loc>
+    <lastmod>2024-04-02T10:59:10.382Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session02.html</loc>
-    <lastmod>2024-04-02T10:57:02.818Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session02.html</loc>
+    <lastmod>2024-04-02T10:59:05.012Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session08.html</loc>
-    <lastmod>2024-04-02T10:57:00.182Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session08.html</loc>
+    <lastmod>2024-04-02T10:59:02.368Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/index.html</loc>
-    <lastmod>2024-04-02T10:56:59.321Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/index.html</loc>
+    <lastmod>2024-04-02T10:59:01.578Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session07.html</loc>
-    <lastmod>2024-04-02T10:56:58.266Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session07.html</loc>
+    <lastmod>2024-04-02T10:59:00.506Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session04.html</loc>
-    <lastmod>2024-04-02T10:56:57.458Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session04.html</loc>
+    <lastmod>2024-04-02T10:58:59.687Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session01.html</loc>
-    <lastmod>2024-04-02T10:56:56.653Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session01.html</loc>
+    <lastmod>2024-04-02T10:58:58.894Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session02.html</loc>
-    <lastmod>2024-04-02T10:56:55.719Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html</loc>
+    <lastmod>2024-04-02T10:58:57.907Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session08.html</loc>
-    <lastmod>2024-04-02T10:56:53.125Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session08.html</loc>
+    <lastmod>2024-04-02T10:58:55.162Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/index.html</loc>
-    <lastmod>2024-04-02T10:56:49.810Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/index.html</loc>
+    <lastmod>2024-04-02T10:58:52.272Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/team.html</loc>
-    <lastmod>2024-04-02T10:56:47.283Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/team.html</loc>
+    <lastmod>2024-04-02T10:58:49.722Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/acknowledgements.html</loc>
-    <lastmod>2024-04-02T10:56:49.343Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/acknowledgements.html</loc>
+    <lastmod>2024-04-02T10:58:51.795Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/about.html</loc>
-    <lastmod>2024-04-02T10:56:50.279Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/about.html</loc>
+    <lastmod>2024-04-02T10:58:52.734Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session09.html</loc>
-    <lastmod>2024-04-02T10:56:55.227Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session09.html</loc>
+    <lastmod>2024-04-02T10:58:57.356Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session03.html</loc>
-    <lastmod>2024-04-02T10:56:56.159Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session03.html</loc>
+    <lastmod>2024-04-02T10:58:58.387Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session14.html</loc>
-    <lastmod>2024-04-02T10:56:57.032Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session14.html</loc>
+    <lastmod>2024-04-02T10:58:59.289Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session11.html</loc>
-    <lastmod>2024-04-02T10:56:57.861Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session11.html</loc>
+    <lastmod>2024-04-02T10:59:00.096Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session13.html</loc>
-    <lastmod>2024-04-02T10:56:58.825Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session13.html</loc>
+    <lastmod>2024-04-02T10:59:01.077Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session12.html</loc>
-    <lastmod>2024-04-02T10:56:59.784Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session12.html</loc>
+    <lastmod>2024-04-02T10:59:01.974Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/session09.html</loc>
-    <lastmod>2024-04-02T10:57:00.585Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session09.html</loc>
+    <lastmod>2024-04-02T10:59:02.755Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session03.html</loc>
-    <lastmod>2024-04-02T10:57:04.957Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session03.html</loc>
+    <lastmod>2024-04-02T10:59:07.163Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session14.html</loc>
-    <lastmod>2024-04-02T10:57:10.121Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session14.html</loc>
+    <lastmod>2024-04-02T10:59:12.593Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session11.html</loc>
-    <lastmod>2024-04-02T10:57:14.389Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session11.html</loc>
+    <lastmod>2024-04-02T10:59:17.030Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/sessions/slides_session12.html</loc>
-    <lastmod>2024-04-02T10:57:17.312Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session12.html</loc>
+    <lastmod>2024-04-02T10:59:20.145Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/implementation.html</loc>
-    <lastmod>2024-04-02T10:57:19.943Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/implementation.html</loc>
+    <lastmod>2024-04-02T10:59:22.909Z</lastmod>
   </url>
   <url>
-    <loc>{{< var links.site >}}/code-of-conduct.html</loc>
-    <lastmod>2024-04-02T10:57:23.228Z</lastmod>
+    <loc>https://lennartwittkuhn.com/version-control-course-uhh-ss24/code-of-conduct.html</loc>
+    <lastmod>2024-04-02T10:59:25.870Z</lastmod>
   </url>
 </urlset>
