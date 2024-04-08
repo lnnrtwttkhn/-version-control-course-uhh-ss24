@@ -32,7 +32,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -365,33 +384,9 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/logistics-and-admin" id="/toc-logistics-and-admin">Logistics and admin</a>
-<ul>
-<li><a href="#/team" id="/toc-team">Team</a></li>
-<li><a href="#/who-are-you" id="/toc-who-are-you">Who are you?</a></li>
-<li><a href="#/course-overview" id="/toc-course-overview">Course overview</a></li>
-<li><a href="#/what-will-the-average-seminar-session-look-like" id="/toc-what-will-the-average-seminar-session-look-like">What will the average seminar session look like?</a></li>
-<li><a href="#/schedule" id="/toc-schedule">Schedule</a></li>
-<li><a href="#/course-website" id="/toc-course-website">Course Website</a></li>
-<li><a href="#/version-control-book" id="/toc-version-control-book">Version Control Book</a></li>
-<li><a href="#/exercises-quizzes-surveys" id="/toc-exercises-quizzes-surveys">Exercises, quizzes &amp; surveys</a></li>
-<li><a href="#/your-role-questions-and-interactions" id="/toc-your-role-questions-and-interactions">Your role, questions and interactions</a></li>
-<li><a href="#/your-role-participation-and-exercises" id="/toc-your-role-participation-and-exercises">Your role, Participation and exercises</a></li>
-<li><a href="#/recipe-resource" id="/toc-recipe-resource">Recipe Resource</a></li>
-<li><a href="#/code-of-conduct" id="/toc-code-of-conduct">Code of Conduct</a></li>
-</ul></li>
+<li><a href="#/logistics-and-admin" id="/toc-logistics-and-admin">Logistics and admin</a></li>
 <li><a href="#/survey-results" id="/toc-survey-results">Survey results</a></li>
-<li><a href="#/introduction-to-version-control" id="/toc-introduction-to-version-control">Introduction to version control</a>
-<ul>
-<li><a href="#/learning-objectives" id="/toc-learning-objectives">Learning objectives</a></li>
-<li><a href="#/your-turn" id="/toc-your-turn">Your turn</a></li>
-<li><a href="#/why-we-need-version-control" id="/toc-why-we-need-version-control">Why we need version control …</a></li>
-<li><a href="#/what-is-version-control" id="/toc-what-is-version-control">What is version control</a></li>
-<li><a href="#/what-is-git" id="/toc-what-is-git">What is Git?</a></li>
-
-<li><a href="#/schedule-1" id="/toc-schedule-1">Schedule</a></li>
-<li><a href="#/homework-tasks" id="/toc-homework-tasks">“Homework” Tasks</a></li>
-</ul></li>
+<li><a href="#/introduction-to-version-control" id="/toc-introduction-to-version-control">Introduction to version control</a></li>
 </ul>
 </nav>
 </section>
@@ -416,19 +411,114 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 </div>
 </section>
+<section id="research-on-mechanisms-of-learning-change" class="slide level2">
+<h2>Research on “Mechanisms of Learning &amp; Change”</h2>
+<div class="fragment">
+<!-- -->
+<h4 id="how-does-the-brain-use-past-experience-to-guide-future-decisions">How does the brain use past experience to guide future decisions?</h4>
+<p><br></p>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/lake-learning.jpeg"></p>
+<figcaption>taken from <span class="citation" data-cites="lake2016">Lake et al. (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>: “Building machines that learn and think like people”</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="fragment">
+<p><img data-src="../images/research-areas.png"></p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Find out more on our group’s website: <a href="https://schucklab.gitlab.io/" class="uri">https://schucklab.gitlab.io/</a></p>
+</div>
+<aside class="notes">
+<ul>
+<li>we heard a lot about artificial intelligence</li>
+<li>what does “intelligence” even mean?</li>
+<li>as psychologists &amp; cognitive neuroscientists we are interested in understanding human “natural” or biological intelligence</li>
+<li>our group is interested in the convergence between neuroscience and artificial intelligence research (“Neuro AI”)</li>
+<li>e.g., “why are humans so fast in learning a wide range of tasks in complex environments”</li>
+<li>we use cognitive and psychological approaches, neural measurement using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="research-teaching-assistant-positions-thesis-projects" class="slide level2">
+<h2>Research / teaching assistant positions + thesis projects</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/git-logo-full.svg" style="width:85.0%"></p>
+<figcaption><a href="https://git-scm.com/">git-scm.com</a></figcaption>
+</figure>
+</div>
+<h3 id="version-control-course">Version Control Course</h3>
+<ul>
+<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> Support our teaching project!</li>
+<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> flexible</li>
+<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
+<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
+<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 55.6%;justify-content: center;">
+<p><img data-src="../images/mri.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 44.4%;justify-content: center;">
+<p><img data-src="../images/brain-anatomical.png"></p>
+</div>
+</div>
+</div>
+<h3 id="research-projects-in-our-group">Research projects in our group</h3>
+<ul>
+<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> data collection &amp; analysis (e.g., fMRI)</li>
+<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> felxible</li>
+<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
+<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
+<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
 <section id="who-are-you" class="slide level2">
 <h2>Who are you?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<ul>
+<ol type="1">
 <li>Your name?</li>
 <li>Your preferred pronouns?</li>
-<li>Which study program are you currently enrolled in?</li>
+<li><em>One</em> (fun) fact about you? For example:
+<ul>
 <li>What did you study before and where?</li>
 <li>What do you expect from this course?</li>
-<li>A fun fact about you?</li>
+<li>What’s your hobby?</li>
+<li>Do you have a pet?</li>
+<li>What’s your favorite color?</li>
 <li>Your mood on rubber duck scale?</li>
-</ul>
+</ul></li>
+</ol>
 </div><div class="column" style="width:45%;">
 <div class="fragment">
 <p><img data-src="../images/mood-rubber-duck.png" alt="Mood on a rubber duck scale."></p>
@@ -443,15 +533,15 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <ul>
 <li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Summer semester 2024 (April to July)</li>
 <li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> Mondays, 12:15 - 13:45 (90 Minutes)</li>
-<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> University of Hamburg, Von-Melle-Park 5, Room 3016</li>
+<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> Von-Melle-Park 5, Room 3016</li>
 <li><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Instructor:</strong> <a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a></li>
 <li><i class="fa-solid fa-user-plus" aria-label="user-plus"></i> <strong>Assistant:</strong> <a href="mailto:konrad.pagenstedt@uni-hamburg.de">Konrad Pagenstedt</a></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <ul>
 <li><i class="fa-solid fa-chalkboard" aria-label="chalkboard"></i> <strong>Event:</strong> Seminar</li>
-<li><i class="fa-solid fa-gem" aria-label="gem"></i> <strong>Credits:</strong> 4,0</li>
-<li><i class="fa-solid fa-language" aria-label="language"></i> <strong>Language:</strong> English / German</li>
+<li><i class="fa-solid fa-gem" aria-label="gem"></i> <strong>Credits:</strong> 4,0 (2 SWS)</li>
+<li><i class="fa-solid fa-language" aria-label="language"></i> <strong>Language:</strong> English</li>
 <li><i class="fa-solid fa-tag" aria-label="tag"></i> <strong>Tag:</strong> PsyM14-PsyWB-K04</li>
 </ul>
 </div>
@@ -464,7 +554,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 <div class="fragment">
 <ol type="1">
-<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review (up to 30 minutes):</strong> <br> Course participants engage with <a href="https://lennartwittkuhn.com/version-control-book/">the online materials</a>, supplemented by concise presentations by the instructors. Some course preparation may occur outside of the class.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review (up to 30 minutes):</strong> <br> Course participants engage with <a href="https://lennartwittkuhn.com/version-control-book/">the online materials</a> (aka. our “Version Control Book”), supplemented by short presentations by the instructors. Some course preparation may occur outside of the class.</li>
 </ol>
 </div>
 <div class="fragment">
@@ -481,11 +571,12 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <!-- -->
 <h3 id="logistics">Logistics</h3>
 <ul>
-<li><i class="fa-solid fa-laptop" aria-label="laptop"></i> You need a laptop. Talk to use if you don’t have a laptop.</li>
+<li><i class="fa-solid fa-laptop" aria-label="laptop"></i> You need a laptop. Talk to us if you don’t have a laptop.</li>
 </ul>
 </div>
 <div class="fragment">
-<p>Note, that course participants are <strong>sometimes required to work on course materials outside of class time</strong>. Not all course contents will be covered during class time.</p>
+<p>Note, that course participants are <strong>sometimes required to work on course materials outside of class time</strong>.</p>
+<p>Not all course contents will be covered during class time.</p>
 </div>
 </section>
 <section id="schedule" class="slide level2">
@@ -652,24 +743,22 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h2>Exercises, quizzes &amp; surveys</h2>
 <div class="fragment">
 <ul>
-<li>we use surveys to ask you questions and implement exercises or quizzes</li>
-<li>implemented in the <a href="https://formr.org/">formr</a> survey framework</li>
+<li>We use online surveys to ask you questions and implement exercises or quizzes</li>
+<li>Implemented in the <a href="https://formr.org/">formr</a> survey framework (open-source, hosted in Germany)</li>
 </ul>
 </div>
 <div class="fragment">
 <!-- -->
 <h4 id="anonymity-data-usage">Anonymity &amp; data usage</h4>
 <ul>
-<li>all raw data are kept <strong>anonymous</strong>, will only be used for the course and <strong>never shared publicly</strong></li>
-<li>the data will be used exclusively <strong>for educational purposes</strong> as part of the course</li>
+<li>all raw data are kept <strong>anonymous</strong> and will only be <strong>used for research and educational purposes</strong></li>
 <li>if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained</li>
-<li>you can also complete survey without providing a personal codeword</li>
-<li>if you want your data to be deleted, send an email with your codeword to <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
+<li>if you want your data to be deleted, send an email with your personal codeword to <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a> (Christine Manor). Our secretary forwards your codeword to us (without your name).</li>
 </ul>
 </div>
 </section>
-<section id="your-role-questions-and-interactions" class="slide level2">
-<h2>Your role, questions and interactions</h2>
+<section id="your-role-questions-and-communication" class="slide level2">
+<h2>Your role: questions and communication</h2>
 <div class="fragment">
 <!-- -->
 <h4 id="questions-discussions-during-class-time"><strong>Questions &amp; discussions <em>during</em> class time</strong></h4>
@@ -679,39 +768,47 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </ul>
 </div>
 <div class="fragment">
+<ul>
+<li>Ask questions! There are no stupid questions!</li>
+</ul>
+</div>
+<div class="fragment">
 <!-- -->
 <h4 id="questions-discussions-outside-of-class-time"><strong>Questions &amp; discussions <em>outside of</em> class time</strong></h4>
 <ul>
 <li>Ask questions! There are no stupid questions!</li>
-<li>Send questions to our mailing list: <a href="mailto:version-control-course.psych@lists.uni-hamburg.de">version-control-course.psych@lists.uni-hamburg.de</a></li>
+<li>Send questions to our mailing list: <a href="mailto:version-control-course-ss24.psych@lists.uni-hamburg.de">version-control-course-ss24.psych@lists.uni-hamburg.de</a></li>
 <li>Send questions to <a href="mailto:lennart.wittkuhn@uni-hamburg.de">Lennart</a> and / or <a href="mailto:konrad.pagenstedt@uni-hamburg.de">Konrad</a></li>
-<li>Office hours by appointment</li>
-<li>Give use feedback!</li>
+<li>Office hours by appointment via email</li>
+<li>Be proactive: Give us feedback!</li>
 </ul>
 </div>
 </section>
-<section id="your-role-participation-and-exercises" class="slide level2">
-<h2>Your role, Participation and exercises</h2>
+<section id="your-role-active-participation" class="slide level2">
+<h2>Your role: active participation</h2>
 <div class="fragment">
 <!-- -->
 <h4 id="active-participation"><strong>Active participation</strong></h4>
 <ul>
-<li>This is a pass / fail course</li>
-<li>Requirement 1: Come to at least <strong>12 out of 14 sessions</strong> (85%) and sign the attendance list</li>
-<li>Requirement 2: Fill out all <strong>surveys/quizzes</strong> (They are not that long)</li>
-<li>Requirement 3: Do <strong>all mandatory exercises</strong></li>
+<li>This is a pass / fail course. You pass if you fulfill all course requirements:</li>
+<li>Requirement 1: Come to at least <strong>11 out of 13 sessions</strong> (85%)</li>
+<li>Requirement 2: Complete all <strong>surveys/quizzes</strong></li>
+<li>Requirement 3: Complete <strong>all mandatory exercises</strong> (implemented in Git)</li>
 </ul>
 </div>
 <div class="fragment">
 <!-- -->
-<h4 id="mandatory-exercise"><strong>Mandatory Exercise</strong></h4>
-<ul>
-<li>Most will focus on building a Recipe Resource</li>
-</ul>
+<h4 id="how-do-we-verify-the-course-requirements">How do we verify the course requirements?</h4>
+<ol type="1">
+<li>Requirement 1: <strong>Sign the attendance list</strong></li>
+<li>Requirement 2: <strong>Provide a personal codeword</strong>. At the end of the semester, send an email with your personal codeword to <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a> (Christine Manor). We will send our secretary a list of personal codewords and she will return a list of names.</li>
+<li>Requirement 3: At the end of the semester, <strong>send a link to your completed exercises</strong>.</li>
+</ol>
 </div>
 </section>
-<section id="recipe-resource" class="slide level2">
-<h2>Recipe Resource</h2>
+<section id="course-exercise-building-an-online-recipes-book" class="slide level2">
+<h2>Course exercise: Building an online recipes book</h2>
+<p>Example: <a href="https://lennartwittkuhn.com/recipes" class="uri">https://lennartwittkuhn.com/recipes</a></p>
 <iframe width="100%" height="100%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
 </section>
 <section id="code-of-conduct" class="slide level2">
@@ -725,11 +822,63 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </ul>
 <p>A first violation of this code of conduct will result in a warning, and subsequent violations by the same person can result in the immediate removal from the course without further warning. The organizers also reserve the right to prohibit attendance of excluded participants from similar future workshops, courses or meetings they organize.</p>
 </section></section>
+<section>
 <section id="survey-results" class="title-slide slide level1 center">
 <h1>Survey results</h1>
 
 </section>
-
+<section id="expectations" class="slide level2">
+<h2>Expectations</h2>
+<ul>
+<li><p>No idea (for example: “i really have no idea about that”)</p></li>
+<li><p>Data analysis (for example: “How to work with research data”)</p></li>
+<li><p><strong>Git/GitHub</strong> (for example: “Practical tasks with git and github, theoretical background”)</p></li>
+</ul>
+</section>
+<section id="hopes" class="slide level2">
+<h2>Hopes</h2>
+<ul>
+<li><p>Data analysis skills (for example: “Learning practical information about data analyses”)</p></li>
+<li><p>Coding skills (for example: “Hopes for better coding skills post-course”)</p></li>
+<li><p>Science Communication (for example: “Science communication and networking using research”)</p></li>
+<li><p>Version Control Skills (for example: “Getting an idea of what is possible with GitHub”)</p></li>
+</ul>
+</section>
+<section id="worries" class="slide level2">
+<h2>Worries</h2>
+<ul>
+<li><p>Lack of coding skills (for example: “My low ability in coding”)</p></li>
+<li><p>Inadequate previous knowledge (for example: “I worry that I don’t have enough previous knowledge”)</p></li>
+<li><p>Language barrier</p></li>
+<li><p>Learning pace</p></li>
+</ul>
+</section>
+<section id="motivation" class="slide level2">
+<h2>Motivation</h2>
+<ul>
+<li><p>Pragmatic course selection (for example: “I needed a course for ‘Wahlbereich’ and this one was the only available one.”)</p></li>
+<li><p>Learning new skills (for example: “For me it is very important to get to know tools and learn how to handle them.”)</p></li>
+</ul>
+</section>
+<section id="version-control" class="slide level2">
+<h2>Version Control</h2>
+<h3 id="can-you-briefly-define-the-term-version-control">Can you briefly define the term version control?</h3>
+<ul>
+<li><p>No idea (for example: “I don’t know what that is”)</p></li>
+<li><p>“(…) it’s about comparing the latest version of someone else who is working on the same project as me with my version”</p></li>
+</ul>
+</section>
+<section id="scenarios" class="slide level2">
+<h2>Scenarios</h2>
+<h4 id="imagine-a-scenario-where-you-crafted-a-brilliant-paragraph-for-your-document-for-example-your-paper-thesis-or-report-but-then-accidentally-ruined-it.-how-would-you-retrieve-the-earlier-brilliant-version-is-it-even-possible">Imagine a scenario where you crafted a brilliant paragraph for your document (for example, your paper, thesis or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?</h4>
+<ul>
+<li>“In the past, I mostly worked with doc documents (word) and saved every day a new version when I was the only person working on the document. This was not very practical and I hope to learn an alternative during this course”</li>
+</ul>
+<h4 id="consider-a-situation-where-you-are-working-with-five-co-authors-on-a-paper.-how-do-you-handle-the-changes-and-comments-they-make-to-the-document">(…) Consider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document</h4>
+<ul>
+<li>“I know that you can accept changes and comments in word, but I always find it confusing and complex to keep the overview. I don’t know what happens to the history of modifications.”</li>
+</ul>
+</section></section>
 <section>
 <section id="introduction-to-version-control" class="title-slide slide level1 center">
 <h1>Introduction to version control</h1>
@@ -738,17 +887,88 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
 <p>At the end of this session, you should be able to answer the following questions:</p>
-<ol type="1">
-<li>What is version control?</li>
-<li>Why is version control useful (for research)?</li>
-<li>What are Git and GitHub?</li>
-<li>What is the difference between Git and GitHub?</li>
-</ol>
+<p><span class="emoji" data-emoji="bulb">💡</span> What is version control?<br> <span class="emoji" data-emoji="bulb">💡</span> Why is version control useful (for research)?<br> <span class="emoji" data-emoji="bulb">💡</span> What are Git and GitHub?<br> <span class="emoji" data-emoji="bulb">💡</span> What is the difference between Git and GitHub?</p>
 </section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
-<p>Read <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Chapter 1: “Introduction to Version Control”</a> in the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a></p>
+<ol type="1">
+<li>Read <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Chapter 1: “Introduction to Version Control”</a> in the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a></li>
+<li>Discuss the learning objectives with your desk neighbor (quietly)</li>
+</ol>
+<h4 id="learning-objectives-1">Learning objectives</h4>
+<p><span class="emoji" data-emoji="bulb">💡</span> What is version control?<br> <span class="emoji" data-emoji="bulb">💡</span> Why is version control useful (for research)?<br> <span class="emoji" data-emoji="bulb">💡</span> What are Git and GitHub?<br> <span class="emoji" data-emoji="bulb">💡</span> What is the difference between Git and GitHub?</p>
 </section>
+<section id="the-issue-of-computational-reproducibility-in-science" class="slide level2">
+<h2>The issue of computational reproducibility in science</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<p><em>“… when the <strong>same analysis</strong> steps performed on the <strong>same dataset</strong> consistently produce the <strong>same answer</strong>.”</em> <a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/turing-way-reproducibility.png"></p>
+<figcaption>by <a href="https://www.scriberia.com/">Scriberia</a> for <span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> (<a href="https://zenodo.org/record/3678226/">Link</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<!-- -->
+<h3 id="the-problem">The problem</h3>
+</div>
+<div>
+<ul>
+<li class="fragment">about <strong>more than half</strong> of research is <strong>not reproducible</strong> <a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a>
+<ul>
+<li class="fragment">research data, code, software &amp; materials are <strong>often not available</strong> “upon <em>reasonable</em> [sic] request”</li>
+<li class="fragment">if resources are shared, they are <strong>often incomplete</strong></li>
+</ul></li>
+<li class="fragment">90% of researchers: “reproducibility crisis” (<em>N</em> = 1576) <a href="#/footnotes" class="footnote-ref" id="fnref3" role="doc-noteref" data-footnote-href="#/fn3" onclick=""><sup>3</sup></a></li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="why">Why?</h3>
+</div>
+<div>
+<ul>
+<li class="fragment">computational reproducibility is hard</li>
+<li class="fragment">researchers lack training</li>
+<li class="fragment">incentives are not (yet) aligned <a href="#/footnotes" class="footnote-ref" id="fnref4" role="doc-noteref" data-footnote-href="#/fn4" onclick=""><sup>4</sup></a></li>
+<li class="fragment">“natural selection of bad science” <a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>“<em>… accumulated evidence indicates […] <strong>substantial room for improvement</strong> with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.</em>” <span class="citation" data-cites="munafò2017">(<a href="#/references" role="doc-biblioref" onclick="">Munafò et al., 2017</a>)</span></p>
+</div>
+<div class="fragment">
+<p>We need a <strong>professional toolkit</strong> for digital research!</p>
+</div>
+<aside class="notes">
+<ul>
+<li>also called “analytical reproducibility”</li>
+<li>in contrast: “Replication” = same analysis on different data</li>
+<li>computational reproducibility should be a <em>minimum</em> requirement</li>
+<li>90% of respondents to a survey in Nature agreed that there is a “reproducibility crisis”</li>
+<li>non-scientist friends react very surprised at the lack of professionalization in science</li>
+<li>we are currently violating the public’s trust = deep ethical problem</li>
+<li>natural selection: as a researcher, what’s good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)</li>
+<li>journals are interested in selling us back our data, not improving the quality of science</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside></aside></section>
 <section id="why-we-need-version-control" class="slide level2">
 <h2>Why we need version control …</h2>
 <div class="columns">
@@ -786,7 +1006,7 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
       }</style></aside>
 </section>
 <section id="what-is-version-control" class="slide level2">
-<h2>What is version control</h2>
+<h2>What is version control?</h2>
 <div class="fragment">
 <p><em>“Version control is a systematic approach to record changes made in a […] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later […]”</em> (<a href="https://the-turing-way.netlify.app/reproducible-research/vcs.html">Turing Way</a>)</p>
 </div>
@@ -837,12 +1057,9 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <li>free, <a href="https://github.com/git">open-source</a> command-line tool</li>
 <li>graphical user interfaces exist, e.g., <a href="https://www.gitkraken.com/">GitKraken</a></li>
 <li>standard tool for most (all?) software developers</li>
-<li>100 million <a href="https://github.com/">GitHub</a> users <a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></li>
+<li>100 million <a href="https://github.com/">GitHub</a> users <a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a></li>
 </ul>
 </div>
-</div>
-<div class="fragment">
-<p>Note: We will focus on Git and only refer to DataLad as an outlook.</p>
 </div>
 <aside class="notes">
 <ul>
@@ -994,39 +1211,229 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 </div>
 </section>
-<section id="homework-tasks" class="slide level2">
-<h2>“Homework” Tasks</h2>
+<section id="next-week-the-command-line" class="slide level2">
+<h2>Next week: The command line</h2>
+
+<img data-src="../images/command-line.png" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png">Wikimedia Commons</a> (free license)</p></section>
+<section id="homework" class="slide level2">
+<h2>Homework</h2>
+<div class="fragment">
+<!-- -->
+<h3 id="check-if-you-have-git-a-command-line-installed">1. Check if you have Git / a command line installed</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="windows-users-fa-brands-windows">Windows Users <i class="fa-brands fa-windows" aria-label="windows"></i></h4>
+<ul>
+<li>Download and install <a href="https://gitforwindows.org">Git for Windows</a> until <strong>next week</strong></li>
+<li>You can find a tutorial in the <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="apple-fa-brands-apple-or-linux-users-fa-brands-linux">Apple <i class="fa-brands fa-apple" aria-label="apple"></i> or Linux Users <i class="fa-brands fa-linux" aria-label="linux"></i></h4>
+<ul>
+<li>Download and install <a href="https://git-scm.com">Git</a> until <strong>15.04.</strong> (in two weeks)</li>
+<li>You can find a tutorial in our <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="complete-the-pre-course-survey">2. Complete the pre-course survey</h3>
+</div>
+</section>
+<section id="research-colloquium-cognitive-neuroscience" class="slide level2">
+<h2>Research Colloquium: Cognitive Neuroscience</h2>
+<table>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 53%">
+<col style="width: 23%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Time</th>
+<th>Topic</th>
+<th>Presenter</th>
+<th>Room</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>03 Apr</td>
+<td>17:00</td>
+<td>Hippocampal Remapping and Reward coding in mice</td>
+<td>Mari Sosa (Stanford)</td>
+<td>Zoom</td>
+</tr>
+<tr class="even">
+<td>10 Apr</td>
+<td>10:15</td>
+<td>Meta Learning of Learning Rates</td>
+<td>Jonas Simoens (U Ghent)</td>
+<td>VMP 5 4018</td>
+</tr>
+<tr class="odd">
+<td>17 Apr</td>
+<td>10:15</td>
+<td>Decision Making Strategies in younger and older adults</td>
+<td>Alexa Ruel (UHH)</td>
+<td>VMP 5 4018</td>
+</tr>
+<tr class="even">
+<td>24 Apr</td>
+<td>15:15</td>
+<td>Replay shapes abstract cognitive maps for efficient social navigation</td>
+<td>Jae-Young Son (Brown)</td>
+<td>VMP 5 4054</td>
+</tr>
+<tr class="odd">
+<td>08 May</td>
+<td>16:00</td>
+<td>TBD</td>
+<td>Bob Wilson (U Arizona)</td>
+<td>VMP 5 4018</td>
+</tr>
+<tr class="even">
+<td>15 May</td>
+<td>10:15</td>
+<td>TBD</td>
+<td>Tobias Donner (UKE Hamburg)</td>
+<td>VMP 5 4054</td>
+</tr>
+<tr class="odd">
+<td>29 May</td>
+<td>14:00</td>
+<td>TBD</td>
+<td>Ben Eppinger (U Greifswald)</td>
+<td>VMP 5 4054</td>
+</tr>
+<tr class="even">
+<td>05 Jun</td>
+<td>10:15</td>
+<td>Memory replay in younger and older adults</td>
+<td>Xiangjuan Ren (UHH)</td>
+<td>VMP 5 4018</td>
+</tr>
+<tr class="odd">
+<td>12 Jun</td>
+<td>10:15</td>
+<td>Generalisation through replay</td>
+<td>Fabian Renz (UHH)</td>
+<td>VMP 5 4018</td>
+</tr>
+<tr class="even">
+<td>19 Jun</td>
+<td>TBD</td>
+<td></td>
+<td></td>
+<td>VMP 5 4018</td>
+</tr>
+<tr class="odd">
+<td>26 Jun</td>
+<td>TBD</td>
+<td></td>
+<td></td>
+<td>VMP 5 4018</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="research-teaching-assistant-positions-thesis-projects-1" class="slide level2">
+<h2>Research / teaching assistant positions + thesis projects</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="fragment">
-<!-- -->
-<h3 id="windows-user-fa-brands-windows">Windows User <i class="fa-brands fa-windows" aria-label="windows"></i></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/git-logo-full.svg" style="width:85.0%"></p>
+<figcaption><a href="https://git-scm.com/">git-scm.com</a></figcaption>
+</figure>
+</div>
+<h3 id="version-control-course-1">Version Control Course</h3>
 <ul>
-<li>Download and Install <a href="https://gitforwindows.org">GitBASH</a> until <strong>next week</strong></li>
-<li>You can find a tutorial in our <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
+<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> Support our teaching project!</li>
+<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> flexible</li>
+<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
+<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
+<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:lennart.wittkuhn@uni-hamburg.de">lennart.wittkuhn@uni-hamburg.de</a></li>
 </ul>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
-<!-- -->
-<h3 id="apple-fa-brands-apple-or-linux-user-fa-brands-linux">Apple <i class="fa-brands fa-apple" aria-label="apple"></i> or Linux User <i class="fa-brands fa-linux" aria-label="linux"></i></h3>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 55.6%;justify-content: center;">
+<p><img data-src="../images/mri.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 44.4%;justify-content: center;">
+<p><img data-src="../images/brain-anatomical.png"></p>
+</div>
+</div>
+</div>
+<h3 id="research-projects-in-our-group-1">Research projects in our group</h3>
 <ul>
-<li>Download and Install <a href="https://git-scm.com">Git</a> until <strong>15.04.</strong> (in two weeks)</li>
-<li>You can find a tutorial in our <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Version Control Book</a></li>
+<li><span class="emoji" data-emoji="notebook">📓</span> <strong>Tasks:</strong> data collection &amp; analysis (e.g., fMRI)</li>
+<li><span class="emoji" data-emoji="calendar">📆</span> <strong>Duration:</strong> felxible</li>
+<li><span class="emoji" data-emoji="clock1">🕐</span> <strong>Time:</strong> flexible</li>
+<li><span class="emoji" data-emoji="moneybag">💰</span> <strong>Salary:</strong> 12.00 € / hour (SHK) / 13.95 € / hour (WHK)</li>
+<li><span class="emoji" data-emoji="envelope">✉️</span> <strong>Contact:</strong> <a href="mailto:sekretariat-luv.psych@uni-hamburg.de">sekretariat-luv.psych@uni-hamburg.de</a></li>
 </ul>
 </div>
 </div>
 </div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-baker2016" class="csl-entry" role="listitem">
+Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. <em>Nature</em>, <em>533</em>(7604), 452–454. <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>.
+</div>
+<div id="ref-crüwell2023" class="csl-entry" role="listitem">
+Crüwell, S., Apthorp, D., Baker, B. J., Colling, L., Elson, M., Geiger, S. J., Lobentanzer, S., Monéger, J., Patterson, A., Schwarzkopf, D. S., Zaneva, M., &amp; Brown, N. J. L. (2023). What<span>’</span>s in a Badge? A Computational Reproducibility Investigation of the Open Data Badge Policy in One Issue of <span><em>Psychological Science</em></span>. <em>Psychological Science</em>, <em>34</em>(4), 512–522. <a href="https://doi.org/10.1177/09567976221140828">https://doi.org/10.1177/09567976221140828</a>.
+</div>
+<div id="ref-hardwicke2021" class="csl-entry" role="listitem">
+Hardwicke, T. E., Bohn, M., MacDonald, K., Hembacher, E., Nuijten, M. B., Peloquin, B. N., deMayo, B. E., Long, B., Yoon, E. J., &amp; Frank, M. C. (2021). Analytic reproducibility in articles receiving open data badges at the journal <span><em>Psychological Science</em></span> : an observational study. <em>Royal Society Open Science</em>, <em>8</em>(1). <a href="https://doi.org/10.1098/rsos.201494">https://doi.org/10.1098/rsos.201494</a>.
+</div>
+<div id="ref-lake2016" class="csl-entry" role="listitem">
+Lake, B. M., Ullman, T. D., Tenenbaum, J. B., &amp; Gershman, S. J. (2016). Building machines that learn and think like people. <em>Behavioral and Brain Sciences</em>, <em>40</em>. <a href="https://doi.org/10.1017/s0140525x16001837">https://doi.org/10.1017/s0140525x16001837</a>.
+</div>
+<div id="ref-munafò2017" class="csl-entry" role="listitem">
+Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Percie du Sert, N., Simonsohn, U., Wagenmakers, E.-J., Ware, J. J., &amp; Ioannidis, J. P. A. (2017). A manifesto for reproducible science. <em>Nature Human Behaviour</em>, <em>1</em>(1). <a href="https://doi.org/10.1038/s41562-016-0021">https://doi.org/10.1038/s41562-016-0021</a>.
+</div>
+<div id="ref-obels2020" class="csl-entry" role="listitem">
+Obels, P., Lakens, D., Coles, N. A., Gottfried, J., &amp; Green, S. A. (2020). Analysis of Open Data and Computational Reproducibility in Registered Reports in Psychology. <em>Advances in Methods and Practices in Psychological Science</em>, <em>3</em>(2), 229–237. <a href="https://doi.org/10.1177/2515245920918872">https://doi.org/10.1177/2515245920918872</a>.
+</div>
+<div id="ref-poldrack2019" class="csl-entry" role="listitem">
+Poldrack, R. A. (2019). The Costs of Reproducibility. <em>Neuron</em>, <em>101</em>(1), 11–14. <a href="https://doi.org/10.1016/j.neuron.2018.11.030">https://doi.org/10.1016/j.neuron.2018.11.030</a>.
+</div>
+<div id="ref-smaldino2016" class="csl-entry" role="listitem">
+Smaldino, P. E., &amp; McElreath, R. (2016). The natural selection of bad science. <em>Royal Society Open Science</em>, <em>3</em>(9), 160384. <a href="https://doi.org/10.1098/rsos.160384">https://doi.org/10.1098/rsos.160384</a>.
+</div>
+<div id="ref-turingway2022" class="csl-entry" role="listitem">
+The Turing Way Community. (2022). <em>The turing way: A handbook for reproducible, ethical and collaborative research</em>. Zenodo. <a href="https://doi.org/10.5281/zenodo.3233853">https://doi.org/10.5281/zenodo.3233853</a>.
+</div>
+<div id="ref-wicherts2006" class="csl-entry" role="listitem">
+Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor availability of psychological research data for reanalysis. <em>American Psychologist</em>, <em>61</em>(7), 726–728. <a href="https://doi.org/10.1037/0003-066x.61.7.726">https://doi.org/10.1037/0003-066x.61.7.726</a>.
+</div>
+</div>
 
 <div class="footer footer-default">
-<p>Version control of code and data</p>
+<p>Version Control Course</p>
 </div>
 </section></section>
 <section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>(Source: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a>)</p></li>
-<li id="fn2"><p><em>pull</em> requests on GitHub, <em>merge</em> requests on GitLab</p></li>
+<li id="fn1"><p><span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span>, see <a href="https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions">“Guide on Reproducible Research”</a></p></li>
+<li id="fn2"><p>for example, in Psychology: <span class="citation" data-cites="crüwell2023">Crüwell et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="hardwicke2021">Hardwicke et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span>; <span class="citation" data-cites="obels2020">Obels et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>; <span class="citation" data-cites="wicherts2006">Wicherts et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></p></li>
+<li id="fn3"><p>see <span class="citation" data-cites="baker2016">Baker (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>, <em>Nature</em></p></li>
+<li id="fn4"><p>see e.g., <span class="citation" data-cites="poldrack2019">Poldrack (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p></li>
+<li id="fn5"><p>see <span class="citation" data-cites="smaldino2016">Smaldino &amp; McElreath (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span></p></li>
+<li id="fn6"><p>(Source: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a>)</p></li>
+<li id="fn7"><p><em>pull</em> requests on GitHub, <em>merge</em> requests on GitLab</p></li>
 </ol>
 </section>
     </div>
