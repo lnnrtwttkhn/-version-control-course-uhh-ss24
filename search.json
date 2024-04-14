@@ -140,6 +140,27 @@
     "text": "Slides\n  \n  \n    \n     Chapter\n  \n  \n    \n     Exercises"
   },
   {
+    "objectID": "sessions/session01.html#this-session",
+    "href": "sessions/session01.html#this-session",
+    "title": "Introduction to Version Control",
+    "section": "This session",
+    "text": "This session\nIn this session, you will complete the following tasks:\n\nComplete the pre-course survey.\nRead the chapter “Introduction” of the Version Control Book.\nCheck whether you have achieved the learning objectives.\nAfter the session: complete the homework."
+  },
+  {
+    "objectID": "sessions/session01.html#homework",
+    "href": "sessions/session01.html#homework",
+    "title": "Introduction to Version Control",
+    "section": "Homework",
+    "text": "Homework\nCheck if you have Git and / or a command line installed. For detailed instructions for Windows and macOS users, see the chapter “Installation” of the Version Control Book."
+  },
+  {
+    "objectID": "sessions/session01.html#learning-objectives",
+    "href": "sessions/session01.html#learning-objectives",
+    "title": "Introduction to Version Control",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n💡 What is version control? 💡 Why is version control useful (for research)? 💡 What are Git and GitHub? 💡 What is the difference between Git and GitHub?"
+  },
+  {
     "objectID": "sessions/session01.html#slides",
     "href": "sessions/session01.html#slides",
     "title": "Introduction to Version Control",
@@ -490,11 +511,32 @@
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-04-08\nIntroduction to version control\nOrganisational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-04-15\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-04-22\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-04-29\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-05-06\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n6\n2024-05-13\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branches: fast-forward and recursiveResolving merge conflictsStashing and retrieving changes\n Branches\nGit branches Quiz\n\n\n7\n2024-05-20\nWhit Monday\nCancelled\n\n\n\n\n8\n2024-05-27\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-06-03\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-06-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n11\n2024-06-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2024-06-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n13\n2024-07-01\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2024-07-08\nSummary & Wrap-Up\nSummary & Wrap-Up"
   },
   {
+    "objectID": "sessions/slides_session02.html#clarification-what-happens-if-i-miss-a-session",
+    "href": "sessions/slides_session02.html#clarification-what-happens-if-i-miss-a-session",
+    "title": "Session 2: Command Line",
+    "section": "Clarification: “What happens if I miss a session?”",
+    "text": "Clarification: “What happens if I miss a session?”\n\nShort answer: If you miss a session, please review the materials and complete the tasks until next session.\nWe will list the workload (and any homework) explicitly for each session on the course website.\n\n\n lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session02.html"
+  },
+  {
+    "objectID": "sessions/slides_session02.html#pair-programming-variant",
+    "href": "sessions/slides_session02.html#pair-programming-variant",
+    "title": "Session 2: Command Line",
+    "section": "Pair Programming (variant)",
+    "text": "Pair Programming (variant)\n\n\n\nFind yourself in pairs of two\nComplete the exercises together\n\n\n\n\n\nThis illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
+  },
+  {
     "objectID": "sessions/slides_session02.html#today-the-command-line",
     "href": "sessions/slides_session02.html#today-the-command-line",
     "title": "Session 2: Command Line",
     "section": "Today: The command line",
     "text": "Today: The command line\n\nSource: Wikimedia Commons (free license)"
+  },
+  {
+    "objectID": "sessions/slides_session02.html#learning-objectives",
+    "href": "sessions/slides_session02.html#learning-objectives",
+    "title": "Session 2: Command Line",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n💡 Explain when and why command-line interfaces should be used instead of graphical interfaces.  💡 Understand how to form file paths and navigate directories  💡 Understand the difference between absolute and relative paths  💡 Understand how arguments and flags are used to modify command-line commands  💡 Understand the concept of wild cards (*)"
   },
   {
     "objectID": "sessions/slides_session02.html#todays-chapter",
@@ -508,7 +550,7 @@
     "href": "sessions/slides_session02.html#your-turn",
     "title": "Session 2: Command Line",
     "section": "Your turn",
-    "text": "Your turn\n\n Windows users: Make sure GitBASH is installed and set up!\n Content Review: Read the chapter “Command Line” in the Version Control Book\n Implementation: Try out the commands in the chapter! Play around! Have fun!\n Exercises: Complete the exercises in the survey\n\nAsk questions!\n\n\nVersion Control Course"
+    "text": "Your turn\n\n Windows users: Make sure that Git for Windows is installed and set up!\n Content Review: Read the chapter “Command Line” in the Version Control Book\n Implementation: Try out the commands in the chapter! Play around! Have fun!\n Exercises: Complete the exercises in the survey\n\nAsk questions!\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/session08.html",
@@ -760,7 +802,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nApril 8, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Command Line\n\n\nSession 02\n\n\n\n\n\n\nApril 15, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nApril 8, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/session14.html",
@@ -880,6 +922,20 @@
     "title": "Command Line",
     "section": "",
     "text": "Slides\n  \n  \n    \n     Chapter\n  \n  \n    \n     Exercises"
+  },
+  {
+    "objectID": "sessions/session02.html#this-session",
+    "href": "sessions/session02.html#this-session",
+    "title": "Command Line",
+    "section": "This session",
+    "text": "This session\nIn this session, you will complete the following tasks:\n\nRead the chapter “Command Line” of the Version Control Book.\nTry out the commands in the chapter and play around with them.\nComplete the exercises in the Command Line quiz.\nCheck whether you have achieved the learning objectives."
+  },
+  {
+    "objectID": "sessions/session02.html#learning-objectives",
+    "href": "sessions/session02.html#learning-objectives",
+    "title": "Command Line",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n💡 Explain when and why command-line interfaces should be used instead of graphical interfaces.  💡 Understand how to form file paths and navigate directories  💡 Understand the difference between absolute and relative paths  💡 Understand how arguments and flags are used to modify command-line commands  💡 Understand the concept of wild cards (*)"
   },
   {
     "objectID": "sessions/session02.html#slides",
