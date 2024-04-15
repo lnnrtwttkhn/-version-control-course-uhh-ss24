@@ -7,7 +7,7 @@ subtitle: |
   [{{< fa brands github >}} Source]({{< var links.github >}})
   
   {{< var slides.license-badge >}}
-date: "2023-11-03"
+date: "2024-04-22"
 format: revealjs
 metadata-files:
   - _slides.yml
