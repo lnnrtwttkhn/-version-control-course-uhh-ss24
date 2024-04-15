@@ -9,8 +9,12 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session03.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session03.html
       aria-label: display
+    - icon: book
+      text: "Chapter: Installation"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
+      aria-label: book
     - icon: book
       text: "Chapter: Setup"
       href: https://lennartwittkuhn.com/version-control-book/chapters/setup.html
@@ -20,7 +24,11 @@ about:
       href: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
       aria-label: book
     - icon: input-cursor-text
-      text: Exercises
+      text: "Survey: Installation"
+      href: https://version-control-installation.formr.org
+      aria-label: input-cursor-text
+    - icon: input-cursor-text
+      text: "Survey: Git Basics"
       href: https://version-control-basics.formr.org/
       aria-label: input-cursor-text
 ---
