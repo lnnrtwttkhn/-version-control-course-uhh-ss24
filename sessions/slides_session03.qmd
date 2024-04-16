@@ -71,7 +71,7 @@ Ask questions!
 Let's *git* started!
 :::
 
-## Implentation exercises
+## Implementation exercises
 
 ::: {.fragment}
 :memo: Set your Git username and email address.<br>
