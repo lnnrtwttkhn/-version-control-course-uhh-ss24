@@ -33,6 +33,8 @@ In this session, you will complete the following tasks:
 1. Complete the exercises in the [Command Line quiz](https://version-control-cli.formr.org).
 1. Check whether you have achieved the [learning objectives](#learning-objectives).
 
+At the end of this session, you should have a folder called "recipes" with a file called "recipes.txt" in it.
+
 ## Learning objectives
 
 {{< include ../objectives/_objectives-cli.qmd >}}
