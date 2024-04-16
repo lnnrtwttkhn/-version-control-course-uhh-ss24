@@ -47,11 +47,15 @@ After the last session, you should now be able to answer the following questions
 
 ## This Weeks Learning objectives
 
+::: {.fragment}
 {{< include ../objectives/_objectives-setup.qmd >}}
+:::
+
+::: {.fragment}
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 
 - We will continue on them **next week** as well!
-
+:::
 
 ## Your turn
 
@@ -59,7 +63,7 @@ After the last session, you should now be able to answer the following questions
 1. {{< fa book-open >}} **Content Review**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
 1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
 1. **Note:** We will do the implementation exercises in class together, step-by-step.
-1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [quiz "basics"](https://version-control-basics.formr.org/).
+1. {{< fa dumbbell >}} **Exercises**: Complete the [quiz "basics"](https://version-control-basics.formr.org/).
 :::
 
 ::: {.fragment}
