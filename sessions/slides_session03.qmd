@@ -13,18 +13,6 @@ metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-Your mood on cat scale?
-
-::: {.fragment}
-![](../images/mood-cat.png){width="50%"}
-:::
-
-## Last time: The command line
-
-![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
-
 ## Schedule
 
 ```{r}
@@ -35,6 +23,20 @@ Your mood on cat scale?
 create_schedule()
 ```
 
+## Last time: The command line
+
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
+
+## Last week's learning objectives
+
+After the last session, you should now be able to answer the following questions:
+
+{{< include ../objectives/_objectives-intro.qmd >}}
+
+- You should have a folder called **"recipes"** with a file called **"recipes.txt"** in it!
+
+# Quiz Results
+
 ## Today's chapter
 
 {{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
@@ -43,13 +45,21 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 ```
 
+## This Weeks Learning objectives
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+
+- We will continue on them **next week** as well!
+
+
 ## Your turn
 
 ::: {.incremental}
 1. {{< fa book-open >}} **Content Review**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
 1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
 1. **Note:** We will do the implementation exercises in class together, step-by-step.
-1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
+1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey "basics"](https://version-control-basics.formr.org/).
 :::
 
 ::: {.fragment}
