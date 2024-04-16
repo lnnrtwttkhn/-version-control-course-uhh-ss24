@@ -46,11 +46,11 @@ about:
 
 In this session, you will complete the following tasks:
 
-1. Read the [chapter "First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html) of the Version Control Book.
+1.  Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
 1. Complete the exercises in the [chapter "First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html).
 1. Complete the [quiz "basics"](https://version-control-basics.formr.org).
 
-At the end of this session, you should have initalized your "recipe" folder as a repository and committed your first recipe to it.
+At the end of this session, you should have setup Git, initalized your "recipe" folder as a repository and committed your first recipe to it.
 
 ## Email
 
