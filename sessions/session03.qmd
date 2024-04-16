@@ -42,6 +42,16 @@ about:
 <iframe width="100%" height=500 src="slides_session03.html"></iframe>
 ```
 
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Read the [chapter "First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html) of the Version Control Book.
+1. Complete the exercises in the [chapter "First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html).
+1. Complete the [quiz "basics"](https://version-control-basics.formr.org).
+
+At the end of this session, you should have initalized your "recipe" folder as a repository and committed your first recipe to it.
+
 ## Email
 
 Dear course participants,
