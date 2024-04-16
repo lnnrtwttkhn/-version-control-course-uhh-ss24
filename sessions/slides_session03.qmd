@@ -71,3 +71,20 @@ Ask questions!
 
 Let's *git* started!
 :::
+
+## Implentation exercises
+
+::: {.fragment}
+:memo: Set your Git username and email address.<br>
+:memo: Change the default name of the initial "branch".<br>
+:rocket: Optional: Change your default text editor.
+:::
+
+::: {.fragment}
+:memo: **Setup:** Create a recipes folder and **turn it into a Git repository.** <br>
+:memo: **Add Content:** Write down a recipe—any favorite or an intriguing AI-generated one in recipes.txt. <br>
+:memo: **Save Changes:**  Stage and commit your recipe to the repository. <br>
+
+There are several terms in these instructions that might be unfamiliar to you, for example "repository", "stage" or "commit".
+Don't worry, you will learn about what these terms mean in this chapter.
+:::
