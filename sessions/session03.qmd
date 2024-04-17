@@ -27,10 +27,10 @@ about:
       text: "Survey: Installation"
       href: https://version-control-installation.formr.org
       aria-label: input-cursor-text
-    - icon: input-cursor-text
-      text: "Survey: Git Basics"
-      href: https://version-control-basics.formr.org/
-      aria-label: input-cursor-text
+    # - icon: input-cursor-text
+    #   text: "Survey: Git Basics"
+    #   href: https://version-control-basics.formr.org/
+    #   aria-label: input-cursor-text
 ---
 
 ::: {#hero-heading}
@@ -40,10 +40,21 @@ about:
 
 In this session, you will complete the following tasks:
 
-1.  Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
-1. Complete the exercises in the ["Setup" chapter](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git" chapter](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
+1. Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
+1. Try out the commands in the chapter and play around with them.
+1. Complete the exercises for the [`recipes` project](#recipes-project) in the ["Setup" chapter](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) and ["First steps with Git" chapter](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
 
-At the end of this session, you should have setup Git, initialized your "recipe" folder as a repository and committed your first recipe to it.
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. You set up Git.
+1. You initialized your `recipes` folder as a Git repository.
+1. You committed your first recipe to the `recipes` repository.
+
+Please keep the `recipes` folder!
+We will continue to use it in the following sessions.
 
 ## Learning objectives
 
