@@ -270,7 +270,14 @@
     "href": "sessions/session02.html#this-session",
     "title": "Command Line",
     "section": "This session",
-    "text": "This session\nIn this session, you will complete the following tasks:\n\nRead the chapter “Command Line” of the Version Control Book.\nTry out the commands in the chapter and play around with them.\nComplete the exercises in the Command Line quiz.\nCheck whether you have achieved the learning objectives."
+    "text": "This session\nIn this session, you will complete the following tasks:\n\nRead the chapter “Command Line” of the Version Control\nComplete the exercises for the recipes project.\nComplete the quiz questions / exercises in the Command Line survey.\n\nAs always:\n\nTry out the commands in the chapter and play around with them.\nCheck whether you have achieved the learning objectives."
+  },
+  {
+    "objectID": "sessions/session02.html#recipes-project",
+    "href": "sessions/session02.html#recipes-project",
+    "title": "Command Line",
+    "section": "recipes project",
+    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called recipes.\nYou used the command line to create a file called recipes.txt inside the recipes folder.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/session02.html#learning-objectives",
@@ -651,25 +658,32 @@
     "text": "Slides"
   },
   {
-    "objectID": "sessions/slides_session03.html#how-are-you-today",
-    "href": "sessions/slides_session03.html#how-are-you-today",
-    "title": "Session 3: First steps with Git",
-    "section": "How are you today?",
-    "text": "How are you today?\nYour mood on cat scale?"
-  },
-  {
-    "objectID": "sessions/slides_session03.html#last-time-the-command-line",
-    "href": "sessions/slides_session03.html#last-time-the-command-line",
-    "title": "Session 3: First steps with Git",
-    "section": "Last time: The command line",
-    "text": "Last time: The command line\n\nSource: Wikimedia Commons (free license)"
-  },
-  {
     "objectID": "sessions/slides_session03.html#schedule",
     "href": "sessions/slides_session03.html#schedule",
     "title": "Session 3: First steps with Git",
     "section": "Schedule",
     "text": "Schedule\n\n\n\n\n\nNo\nDate\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2024-04-08\nIntroduction to version control\nOrganisational mattersOverview of seminar sessionsIntroduction to version controlIntroduction to Git and its advantages\n Intro to version control\nCourse introduction Survey\n\n\n2\n2024-04-15\nCommand line\nFile SystemsBenefits of the Command LineBasic Command Line commands\n Command Line\nCommand Line Quiz\n\n\n3\n2024-04-22\nSetup + Git Fundamentals\nInstallation and configuration of GitInitializing a Git repositoryBasic Git commands\n Installation, Setup, First steps with Git\nInstallation Survey, Git Basics Quiz\n\n\n4\n2024-04-29\nBasic Git workflow\nPracticing basic Git commandsIgnoring files with .gitignoreGood commit messages\n First steps with Git\nGit Basics Quiz\n\n\n5\n2024-05-06\nQuarto Workshop\nIntroduction to Quarto\n\n\n\n\n6\n2024-05-13\nGit Branching and Merging\nUnderstanding branches in GitCreating and switching between branchesMerging branches: fast-forward and recursiveResolving merge conflictsStashing and retrieving changes\n Branches\nGit branches Quiz\n\n\n7\n2024-05-20\nWhit Monday\nCancelled\n\n\n\n\n8\n2024-05-27\nIntroduction to GitHub\nIntroduction to remote repositoriesCreating a GitHub accountCreating and managing repositories on GitHubPushing and pulling changes\n GitHub Intro\nGitHub Quiz\n\n\n9\n2024-06-03\nGitHub with collaborators\nCloning a remote repositoryBranching and merging in a collaborative environmentPull RequestsGitHub IssuesGraphical User Interfaces (GUIs), e.g., GitKraken\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n10\n2024-06-10\nGitHub with the world\nForking a remote repository README filesProject Management\n GitHub Intro, GitHub Issues\nGitHub Quiz\n\n\n11\n2024-06-17\nPublishing\nCreating Tags with GitCreating Releases with GitHubUsing Zenodo for scientific publishingLicencesCitation Files\n Tags and Releases\n\n\n\n12\n2024-06-24\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n13\n2024-07-01\nRepetition and Practice\nRepetition and Practice\n\n\n\n\n14\n2024-07-08\nSummary & Wrap-Up\nSummary & Wrap-Up"
+  },
+  {
+    "objectID": "sessions/slides_session03.html#last-week-the-command-line-1",
+    "href": "sessions/slides_session03.html#last-week-the-command-line-1",
+    "title": "Session 3: First steps with Git",
+    "section": "Last week: The command line",
+    "text": "Last week: The command line\n\nSource: Wikimedia Commons (free license)"
+  },
+  {
+    "objectID": "sessions/slides_session03.html#last-weeks-learning-objectives",
+    "href": "sessions/slides_session03.html#last-weeks-learning-objectives",
+    "title": "Session 3: First steps with Git",
+    "section": "Last week’s learning objectives",
+    "text": "Last week’s learning objectives\nAfter the last session, you should now be able to answer the following questions / do the following:\n💡 You can navigate directories using the command line  💡 You can use shortcuts like the tilde or dots to navigate your file system  💡 You can explain the difference between absolute and relative paths  💡 You can use arguments and flags to modify command-line commands  💡 You understand the concept of wild cards (*) and can use it for system navigation\n\n\nrecipes project\nAt the end of last week’s session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called recipes.\nYou used the command line to create a file called recipes.txt inside the recipes folder.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+  },
+  {
+    "objectID": "sessions/slides_session03.html#command-line-quiz-results",
+    "href": "sessions/slides_session03.html#command-line-quiz-results",
+    "title": "Session 3: First steps with Git",
+    "section": "Command Line Quiz Results",
+    "text": "Command Line Quiz Results"
   },
   {
     "objectID": "sessions/slides_session03.html#todays-chapter",
@@ -679,18 +693,53 @@
     "text": "Today’s chapter\n lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html"
   },
   {
+    "objectID": "sessions/slides_session03.html#this-and-next-weeks-learning-objectives",
+    "href": "sessions/slides_session03.html#this-and-next-weeks-learning-objectives",
+    "title": "Session 3: First steps with Git",
+    "section": "This and next week’s learning objectives",
+    "text": "This and next week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the different Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 Initializing a Git repository 💡 Staging and committing changes 💡 Exploring the commit history 💡 Comparing versions 💡 Creating a .gitignore file\n\n\nNote: These are the learning objectives for this and next week."
+  },
+  {
     "objectID": "sessions/slides_session03.html#your-turn",
     "href": "sessions/slides_session03.html#your-turn",
     "title": "Session 3: First steps with Git",
     "section": "Your turn",
-    "text": "Your turn\n\n\n Content Review: Read the chapters “Setup” and “First steps with Git” in the Version Control Book\n Implementation: Try out the commands in the chapter! Play around! Have fun!\nNote: We will do the implementation exercises in class together, step-by-step.\n Exercises: Complete the exercises in the survey.\n\n\n\nAsk questions!\nLet’s git started!\n\n\n\nVersion Control Course"
+    "text": "Your turn\n\n\n Content Review: Read the chapters “Setup” and “First steps with Git” in the Version Control Book\n Implementation: Try out the commands in the chapter! Play around! Have fun!\nNote: We will do the implementation exercises in class together, step-by-step.\n\n\n\nAsk questions!\nLet’s git started!"
+  },
+  {
+    "objectID": "sessions/slides_session03.html#implementation-exercises",
+    "href": "sessions/slides_session03.html#implementation-exercises",
+    "title": "Session 3: First steps with Git",
+    "section": "Implementation exercises",
+    "text": "Implementation exercises\n\n📝 Set your Git username and email address. 📝 Change the default name of the initial “branch”. 🚀 Optional: Change your default text editor.\n\n\n📝 Setup: Create a recipes folder and turn it into a Git repository.  📝 Add Content: Write down a short recipe (any favorite or an intriguing AI-generated one) in recipes.txt.  📝 Save Changes: Stage and commit your changes to the repository. \n\n\nNote: There are several terms in these instructions that might still be unfamiliar to you, for example “repository”, “stage” or “commit”. Don’t worry, you will learn about what these terms mean in the chapters.\n\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/session03.html",
     "href": "sessions/session03.html",
     "title": "First steps with Git",
     "section": "",
-    "text": "Slides\n  \n  \n    \n     Chapter: Setup\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Exercises"
+    "text": "Slides\n  \n  \n    \n     Chapter: Installation\n  \n  \n    \n     Chapter: Setup\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Survey: Installation"
+  },
+  {
+    "objectID": "sessions/session03.html#this-session",
+    "href": "sessions/session03.html#this-session",
+    "title": "First steps with Git",
+    "section": "This session",
+    "text": "This session\nIn this session, you will complete the following tasks:\n\nRead the chapters “Setup” and “First steps with Git” in the Version Control Book.\nComplete the exercises for the recipes project in the “Setup” chapter and “First steps with Git” chapter in the Version Control Book\n\nAs always:\n\nTry out the commands in the chapters and play around with them.\nCheck whether you have achieved the learning objectives."
+  },
+  {
+    "objectID": "sessions/session03.html#recipes-project",
+    "href": "sessions/session03.html#recipes-project",
+    "title": "First steps with Git",
+    "section": "recipes project",
+    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your recipes folder as a Git repository.\nYou committed your first recipe to the recipes repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+  },
+  {
+    "objectID": "sessions/session03.html#learning-objectives",
+    "href": "sessions/session03.html#learning-objectives",
+    "title": "First steps with Git",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the different Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n💡 Initializing a Git repository 💡 Staging and committing changes 💡 Exploring the commit history 💡 Comparing versions 💡 Creating a .gitignore file"
   },
   {
     "objectID": "sessions/session03.html#slides",
@@ -704,7 +753,7 @@
     "href": "sessions/session03.html#email",
     "title": "First steps with Git",
     "section": "Email",
-    "text": "Email\nDear course participants,\nYou are receiving this email because you are enrolled in the course “Version Control of Code & Data”, which is taking place this winter semester at the University of Hamburg. This is one of the rare occasions when we will ask you to complete a small task outside of class time.\nWe are very much looking forward to our next session on Friday when we will take our first steps in using Git! For this session, it is important that you verify whether Git is installed on your computer. To do this, we kindly ask you to complete the following tasks before our session on Friday:\n\nPlease review the “Installation” chapter in our course guide: https://lennartwittkuhn.com/version-control-book/chapters/installation.html\nComplete our survey regarding the installation process: https://version-control-installation.formr.org\n\nOverall, this should not take more than 15 minutes.\nPlease ensure that you complete the survey before our next session, ideally by Thursday evening (November 2nd, 2023). This will give us enough time to review your responses before our first session on Friday.\nApart from checking your Git installation and answering the survey, you don’t need to prepare anything else for our next session on Friday.\nFurther information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ws23/\nIf you encounter any issues or have any questions, please feel free to contact us directly via email.\nWe are looking forward to seeing you for the next session on Friday!\nBest wishes, Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)"
+    "text": "Email\nDear course participants,\nYou are receiving this email because you are enrolled in the course “Track, organize and share your work: An introduction to Git for psychological research”, which is taking place this summer semester at the University of Hamburg. This is one of the few occasions when we will ask you to complete additional tasks outside of class time.\nFirst, we hope that your initial explorations of the command line were intriguing and insightful. Regarding this session’s contents, we kindly ask you to complete the following tasks:\n\nFinish reviewing the chapter about the command line and explore the various commands\nComplete the exercises/quiz questions in this online survey: https://version-control-cli.formr.org/\n\nWe are very much looking forward to our next session on Monday when we will take our first steps in using Git! For this session, it is important that you verify whether Git is installed on your computer. To do this, we kindly ask you to complete the following tasks before our next meeting:\n\nIf you haven’t yet completed the installation, please install Git. The Version Control Book provides a chapter about “Installation” which should help you with the installation process: https://lennartwittkuhn.com/version-control-book/chapters/installation.html Send us an email if you encounter any problems during the installation process.\nEveryone: Please complete our (short) survey regarding the installation process: https://version-control-installation.formr.org\n\nPlease ensure that you complete the surveys before our next session, ideally by Sunday evening at the latest. This will give us enough time to review your responses before our session on Monday.\nFurther information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ss24/\nIf you encounter any issues or have any questions, please feel free to contact us directly via email.\nWe are looking forward to seeing you for the next session on Monday!\nBest wishes,\nLennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)"
   },
   {
     "objectID": "sessions/slides_session08.html#how-are-you-today",
@@ -1012,7 +1061,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Command Line\n\n\nSession 02\n\n\n\n\n\n\nApril 15, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nApril 8, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "First steps with Git\n\n\nSession 03\n\n\n\n\n\n\nApril 22, 2024\n\n\n\n\n\n\n\n\nCommand Line\n\n\nSession 02\n\n\n\n\n\n\nApril 15, 2024\n\n\n\n\n\n\n\n\nIntroduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\nApril 8, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/session09.html",

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-11-03">
+<meta name="dcterms.date" content="2024-04-22">
 
 <title>Version Control of Code and Data - First steps with Git</title>
 <style>
@@ -137,7 +137,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a></li>
+  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Email</a></li>
   </ul>
 </nav>
@@ -159,14 +162,18 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 3, 2023</p>
+      <p class="date">April 22, 2024</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session03.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session03.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
+  </a>
+  <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html" class="about-link" rel="" target="">
+    <i class="bi bi-book"></i>
+     <span class="about-link-text">Chapter: Installation</span>
   </a>
   <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html" class="about-link" rel="" target="">
     <i class="bi bi-book"></i>
@@ -176,9 +183,9 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-book"></i>
      <span class="about-link-text">Chapter: First steps with Git</span>
   </a>
-  <a href="https://version-control-basics.formr.org/" class="about-link" rel="" target="">
+  <a href="https://version-control-installation.formr.org" class="about-link" rel="" target="">
     <i class="bi bi-input-cursor-text"></i>
-     <span class="about-link-text">Exercises</span>
+     <span class="about-link-text">Survey: Installation</span>
   </a>
 </div>
       <div class="about-contents"><div id="hero-heading">
@@ -187,6 +194,34 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
+<section id="this-session" class="level2">
+<h2 data-anchor-id="this-session">This session</h2>
+<p>In this session, you will complete the following tasks:</p>
+<ol type="1">
+<li>Read the chapters <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">“Setup”</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">“First steps with Git”</a> in the Version Control Book.</li>
+<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a> in the <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">“Setup” chapter</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">“First steps with Git” chapter</a> in the Version Control Book</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands in the chapters and play around with them.</li>
+<li>Check whether you have achieved the <a href="#learning-objectives">learning objectives</a>.</li>
+</ol>
+</section>
+<section id="recipes-project" class="level2">
+<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You set up Git.</li>
+<li>You initialized your <code>recipes</code> folder as a Git repository.</li>
+<li>You committed your first recipe to the <code>recipes</code> repository.</li>
+</ol>
+<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 data-anchor-id="learning-objectives">Learning objectives</h2>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know how to set up Git for the first time<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up Git on your computer<br> <span class="emoji" data-emoji="bulb">💡</span> You understand the different Git configuration levels<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to configure your username and email address in Git<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up your preferred text editor when working with Git<br> <span class="emoji" data-emoji="bulb">💡</span> You can escape the command-line text editor Vim</p>
+<p><span class="emoji" data-emoji="bulb">💡</span> Initializing a Git repository<br> <span class="emoji" data-emoji="bulb">💡</span> Staging and committing changes<br> <span class="emoji" data-emoji="bulb">💡</span> Exploring the commit history<br> <span class="emoji" data-emoji="bulb">💡</span> Comparing versions<br> <span class="emoji" data-emoji="bulb">💡</span> Creating a <code>.gitignore</code> file</p>
+</section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
 <iframe width="100%" height="500" src="slides_session03.html"></iframe>
@@ -194,19 +229,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="email" class="level2">
 <h2 data-anchor-id="email">Email</h2>
 <p>Dear course participants,</p>
-<p>You are receiving this email because you are enrolled in the course “Version Control of Code &amp; Data”, which is taking place this winter semester at the University of Hamburg. This is one of the rare occasions when we will ask you to complete a small task outside of class time.</p>
-<p>We are very much looking forward to our next session on Friday when we will take our first steps in using Git! For this session, it is important that you verify whether Git is installed on your computer. To do this, we kindly ask you to complete the following tasks before our session on Friday:</p>
+<p>You are receiving this email because you are enrolled in the course “Track, organize and share your work: An introduction to Git for psychological research”, which is taking place this summer semester at the University of Hamburg. This is one of the few occasions when we will ask you to complete additional tasks outside of class time.</p>
+<p>First, we hope that your initial explorations of the command line were intriguing and insightful. Regarding this session’s contents, we kindly ask you to complete the following tasks:</p>
 <ol type="1">
-<li>Please review the “Installation” chapter in our course guide: https://lennartwittkuhn.com/version-control-book/chapters/installation.html</li>
-<li>Complete our survey regarding the installation process: https://version-control-installation.formr.org</li>
+<li>Finish reviewing the chapter about the command line and explore the various commands</li>
+<li>Complete the exercises/quiz questions in this online survey: <a href="https://version-control-cli.formr.org/" class="uri">https://version-control-cli.formr.org/</a></li>
 </ol>
-<p>Overall, this should not take more than 15 minutes.</p>
-<p>Please ensure that you complete the survey before our next session, ideally by Thursday evening (November 2nd, 2023). This will give us enough time to review your responses before our first session on Friday.</p>
-<p>Apart from checking your Git installation and answering the survey, you don’t need to prepare anything else for our next session on Friday.</p>
-<p>Further information about the course can be found on our course website: https://lennartwittkuhn.com/version-control-course-uhh-ws23/</p>
+<p>We are very much looking forward to our next session on Monday when we will take our first steps in using Git! For this session, it is important that you verify whether Git is installed on your computer. To do this, we kindly ask you to complete the following tasks before our next meeting:</p>
+<ol type="1">
+<li>If you haven’t yet completed the installation, please install Git. The Version Control Book provides a chapter about “Installation” which should help you with the installation process: <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/installation.html</a> Send us an email if you encounter any problems during the installation process.</li>
+<li>Everyone: Please complete our (short) survey regarding the installation process: <a href="https://version-control-installation.formr.org" class="uri">https://version-control-installation.formr.org</a></li>
+</ol>
+<p>Please ensure that you complete the surveys before our next session, ideally by Sunday evening at the latest. This will give us enough time to review your responses before our session on Monday.</p>
+<p>Further information about the course can be found on our course website: <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/" class="uri">https://lennartwittkuhn.com/version-control-course-uhh-ss24/</a></p>
 <p>If you encounter any issues or have any questions, please feel free to contact us directly via email.</p>
-<p>We are looking forward to seeing you for the next session on Friday!</p>
-<p>Best wishes, Lennart Wittkuhn (Instructor) &amp; Konrad Pagenstedt (Teaching Assistant)</p>
+<p>We are looking forward to seeing you for the next session on Monday!</p>
+<p>Best wishes,</p>
+<p>Lennart Wittkuhn (Instructor) &amp; Konrad Pagenstedt (Teaching Assistant)</p>
 
 
 
