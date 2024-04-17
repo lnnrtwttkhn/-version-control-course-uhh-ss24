@@ -61,6 +61,8 @@ We will continue to use it in the following sessions.
 
 ## Learning objectives
 
+{{< include ../objectives/_objectives-setup.qmd >}}
+
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 
 ## Slides
