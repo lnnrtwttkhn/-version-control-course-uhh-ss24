@@ -61,7 +61,7 @@ This is one of the few occasions when we will ask you to complete additional tas
 First, we hope that your initial explorations of the command line were intriguing and insightful.
 Regarding this session's contents, we kindly ask you to complete the following tasks:
 
-1. Finish reviewing the chapter about the command line and explore various commands.
+1. Finish reviewing the chapter about the command line and explore the various commands
 1. Complete the exercises/quiz questions in this online survey: <https://version-control-cli.formr.org/>
 
 We are very much looking forward to our next session on Monday when we will take our first steps in using Git!
@@ -70,10 +70,10 @@ To do this, we kindly ask you to complete the following tasks before our next me
 
 1. If you haven't yet completed the installation, please install Git.
 The Version Control Book provides a chapter about "Installation" which should help you with the installation process: <https://lennartwittkuhn.com/version-control-book/chapters/installation.html>
-Send us an email if you have any problems during the installation process.
-1. Everyone: Complete our survey regarding the installation process: <https://version-control-installation.formr.org>
+Send us an email if you encounter any problems during the installation process.
+1. Everyone: Please complete our (short) survey regarding the installation process: <https://version-control-installation.formr.org>
 
-Please ensure that you complete the survey before our next session, ideally by Sunday evening at the latest.
+Please ensure that you complete the surveys before our next session, ideally by Sunday evening at the latest.
 This will give us enough time to review your responses before our session on Monday.
 
 Further information about the course can be found on our course website: <https://lennartwittkuhn.com/version-control-course-uhh-ss24/>
