@@ -45,6 +45,10 @@ In this session, you will complete the following tasks:
 
 At the end of this session, you should have setup Git, initialized your "recipe" folder as a repository and committed your first recipe to it.
 
+## Learning objectives
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+
 ## Slides
 
 ```{=html}
