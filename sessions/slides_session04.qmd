@@ -24,6 +24,12 @@ Your mood on Harry Potter scale?
 create_schedule()
 ```
 
+## {{< fa circle-question >}} How can I download the slides as PDF?
+
+Instructions can now be found above the slides on the course website:
+
+{{< include _print-to-pdf.qmd >}}
+
 ## Today's chapter
 
 {{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
