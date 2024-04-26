@@ -27,8 +27,6 @@ create_schedule()
 
 # Last Week + Questions
 
--   Instructions can now be found above the slides on the course website
-
 ## Last Week
 
 {{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
