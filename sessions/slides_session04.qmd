@@ -1,18 +1,17 @@
 ---
 title: "Session 4: Basic Git workflow"
-date: "2023-11-17"
+subtitle: |
+  {{< var project.title >}}
+  
+  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
+  [{{< fa brands github >}} Source]({{< var links.github >}})
+  
+  {{< var slides.license-badge >}}
+date: "2024-04-29"
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
-
-## How are you today?
-
-Your mood on Harry Potter scale?
-
-::: {.fragment}
-![](../images/mood-harry-potter.jpg){width="60%"}
-:::
 
 ## Schedule
 
@@ -24,11 +23,95 @@ Your mood on Harry Potter scale?
 create_schedule()
 ```
 
+# Last Week + Questions
+
+-   Instructions can now be found above the slides on the course website
+
+## Last Week
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+-   Setup + First Commit
+
 ## {{< fa circle-question >}} How can I download the slides as PDF?
 
-Instructions can now be found above the slides on the course website:
-
 {{< include _print-to-pdf.qmd >}}
+
+## Staging and Committing
+
+::: columns
+::: {.column width="50%"}
+### **Staging:**
+
+-   `git add`
+
+-   Preparing and organizing files before they are permanently recorded in the repository's history
+:::
+
+::: {.column width="50%"}
+### **Committing:**
+
+-   `git commit -m "commit message"`
+
+-   saving the changes in the staged files to the repository's history, creating a permanent snapsho
+:::
+:::
+
+::: fragment
+![Source: [git-scm.com](https://git-scm.com/book/en/v2)](../images/git-staging-diagram.png){width="500"}
+:::
+
+## `git log`
+
+::: fragment
+``` bash
+git log
+```
+:::
+
+::: fragment
+
+e.g.: 
+
+``` bash
+
+commit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -> main, origin/master, origin/HEAD)
+Author: Jane Doe <jane@example.com>
+Date:   Tue Apr 24 14:24:48 2024 -0700
+
+    Fix the widget rendering issue in the dashboard
+
+commit a4324f44d3e85723a4d91cb9e07132b7115e4941
+Author: John Smith <john@example.com>
+Date:   Mon Apr 23 16:17:59 2024 -0700
+
+    Update dependencies to newer versions
+
+commit fa204b9145bf7fc7ff226a26b49a567fc2eb1b94
+Author: Alice Johnson <alice@example.com>
+Date:   Sun Apr 22 15:08:43 2024 -0700
+
+    Initial commit of project files
+
+
+```
+
+:::
+
+## More Terminology
+
+### **Branch:**
+
+### **HEAD:**
+
+## Your questions from last week
+
+# Demoing Stuff
+
+# This Week
 
 ## Today's chapter
 
@@ -37,21 +120,19 @@ Instructions can now be found above the slides on the course website:
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 ```
-
 ## Your turn
 
-::: {.incremental}
-1. {{< fa book-open >}} **Content Review**: Read the chapter ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book.
-Start at "Logging commits"
-1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter!
-Play around!
-Have fun!
-1. **Note:** We will do the implementation exercises in class together, step-by-step.
-1. {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book. Start at "Logging commits"
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
+3.  **Note:** We will do the implementation exercises in class together, step-by-step.
+4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
 :::
 
-::: {.fragment}
+::: fragment
 Ask questions!
 
 Let's *git* started!
 :::
+
+## Implementation Exercises
