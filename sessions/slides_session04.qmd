@@ -6,13 +6,7 @@ metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-Your mood on Harry Potter scale?
-
-::: {.fragment}
-![](../images/mood-harry-potter.jpg){width="60%"}
-:::
+# Admin
 
 ## Schedule
 
@@ -30,9 +24,41 @@ Instructions can now be found above the slides on the course website:
 
 {{< include _print-to-pdf.qmd >}}
 
+# Last week: Setup and first steps with Git
+
+## Last and this week's learning objectives
+
+::: {.fragment}
+### Setup
+{{< include ../objectives/_objectives-setup.qmd >}}
+:::
+
+::: {.fragment}
+### First steps with Git
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+::: {.fragment}
+Note: These are the learning objectives for this and next week.
+:::
+
+::: {.fragment}
+
+### `recipes` project
+
+At the end of last week's session, you should have accomplished the following:
+
+1. You used the command line to create a folder on your computer called `recipes`.
+1. You used the command line to create a file called `recipes.txt` inside the `recipes` folder.
+
+Please keep the `recipes` folder!
+We will continue to use it in the following sessions.
+
+:::
+
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
