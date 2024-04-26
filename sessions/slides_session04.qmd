@@ -40,23 +40,10 @@ create_schedule()
 
 {{< include _print-to-pdf.qmd >}}
 
-## {{< fa circle-question >}} Take the quiz?
-
-- Many chapters contain a "Take the quiz!" button
-- These are the same quizzes that we assign to your as part of the sessions' learning objectives
-- TL;DR: Take the quiz when we tell you
-
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
-
-```{=html}
-<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
-```
-
 ## Staging and Committing
 
 ::: columns
 ::: {.column width="50%"}
-
 ### **Staging:**
 
 -   `git add`
@@ -69,7 +56,7 @@ create_schedule()
 
 -   `git commit -m "commit message"`
 
--   saving the changes in the staged files to the repository's history, creating a permanent snapsho
+-   Saving the changes in the staged files to the repository's history, creating a permanent snapsho
 :::
 :::
 
@@ -83,12 +70,13 @@ create_schedule()
 ``` bash
 git log
 ```
+
+e.g:
 :::
 
+::: columns
+::: {.column width="50%"}
 ::: fragment
-
-e.g.: 
-
 ``` bash
 
 commit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -> main, origin/master, origin/HEAD)
@@ -108,19 +96,97 @@ Author: Alice Johnson <alice@example.com>
 Date:   Sun Apr 22 15:08:43 2024 -0700
 
     Initial commit of project files
-
-
 ```
+:::
+:::
 
+::: {.column width="50%"}
+::: fragment
+``` bash
+
+commit b9690b287bdfec6e17af39b7337b84e9ebf6f046
+Author: Lennart Wittkuhn <lennart.wittkuhn@tutanota.com>
+Date:   Fri Mar 22 15:19:43 2024 +0100
+
+    move illustration of bad git commits (xkcd comic) and edit sentence
+
+commit d8d770dd84cd19086f41d8d38752b223c8130859
+Author: konradpa <konrad@pagenstedt.de>
+Date:   Wed Mar 6 13:51:13 2024 +0100
+
+    add image to setup chapter
+
+commit 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583
+Author: konradpa <konrad@pagenstedt.de>
+Date:   Wed Mar 6 13:51:07 2024 +0100
+
+    add image to rewriting history chapter
+```
+:::
+:::
 :::
 
 ## More Terminology
 
-### **Branch:**
+### **Branches:**
 
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/branches.html](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+```
+
+## More Terminology
 ### **HEAD:**
 
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head" title="Version Control Book"></iframe>
+```
+
+# Your questions from last week
+
+## {{< fa circle-question >}} Take the quiz?
+
+-   Many chapters contain a "Take the quiz!" button
+-   These are the same quizzes that we assign to your as part of the sessions' learning objectives
+-   TL;DR: Take the quiz when we tell you
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+
+```{=html}
+<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
+```
+
 ## Your questions from last week
+
+::: fragment
+- *How to enable copy-paste in git bash?*
+Click Git Bash icon on the **top left corner**, and choose **options**, Go to **Keys menu** and enable Copy and Paste (Ctrl/Shift + Ins) option.
+**Apply and Save.**
+:::
+
+::: fragment
+- *How to find the Users folder on Windows?*
+Use `~` or if pwd is at `/:` you can still use `cd C:`
+:::
+
+::: fragment
+- *Are the Commands in the chapter obligative?*
+No, they are examples
+:::
+
+::: fragment
+- *Will we also learn about coding*
+No, but next session about [Quarto](https://quarto.org), in which you are to free use e.g. R or Python
+:::
+
+::: fragment
+
+- *What should the recipes folder look like?*
+At least, a folder with `recipe.txt`inside with atleast one commit.
+:::
 
 # Demoing Stuff
 
@@ -130,32 +196,31 @@ Date:   Sun Apr 22 15:08:43 2024 -0700
 
 ## Last and this week's learning objectives
 
-::: {.fragment}
+::: fragment
 ### Setup
+
 {{< include ../objectives/_objectives-setup.qmd >}}
 :::
 
-::: {.fragment}
+::: fragment
 ### First steps with Git
+
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 :::
 
-::: {.fragment}
+::: fragment
 Note: These are the learning objectives for this and next week.
 :::
 
-::: {.fragment}
-
+::: fragment
 ### `recipes` project
 
 At the end of last week's session, you should have accomplished the following:
 
-1. You used the command line to create a folder on your computer called `recipes`.
-1. You used the command line to create a file called `recipes.txt` inside the `recipes` folder.
+1.  You used the command line to create a folder on your computer called `recipes`.
+2.  You used the command line to create a file called `recipes.txt` inside the `recipes` folder.
 
-Please keep the `recipes` folder!
-We will continue to use it in the following sessions.
-
+Please keep the `recipes` folder! We will continue to use it in the following sessions.
 :::
 
 ## Today's chapter
@@ -181,3 +246,23 @@ Let's *git* started!
 :::
 
 ## Implementation Exercises
+
+::: fragment
+:memo: make at least 3 commit in `recipes.txt`
+:::
+
+::: fragment
+:memo: make one commit using ``` git --amend`` - add a recipe without title - add title - use ```git commit --amend\` to add the title change to the same commit
+:::
+
+::: fragment
+:memo: create a .gitignore file - all mac users: ignore .DS_Store
+:::
+
+::: fragment
+:memo: complete the [basics](https://version-control-basics.formr.org) quiz
+:::
+
+::: fragment
+:rocket: Optional: use `.gitkeep` in an otherwise empty directory
+:::
