@@ -1,13 +1,6 @@
 ---
 title: "Session 4: Basic Git workflow"
-subtitle: |
-  {{< var project.title >}}
-  
-  [{{< fa brands internet-explorer >}} Slides]({{< var links.site >}}) |
-  [{{< fa brands github >}} Source]({{< var links.github >}})
-  
-  {{< var slides.license-badge >}}
-date: "2024-04-29"
+date: 2024-04-29
 format: revealjs
 metadata-files:
   - _slides.yml
