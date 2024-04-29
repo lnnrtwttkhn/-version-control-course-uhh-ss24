@@ -203,17 +203,18 @@ See next week!
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head" title="Version Control Book"></iframe>
 ```
 
-# Demoing Stuff
+# Live demonstrations
 
-# This Week
+# This week
 
 ## Today's chapter
 
 {{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#logging-commits" title="Version Control Book"></iframe>
 ```
+
 ## Your turn
 
 ::: incremental
