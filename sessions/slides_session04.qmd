@@ -220,8 +220,20 @@ See next week!
 ::: incremental
 1.  {{< fa book-open >}} **Content Review**: Read the chapter ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) in the Version Control Book. Start at "Logging commits"
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-3.  **Note:** We will do the implementation exercises in class together, step-by-step.
-4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-basics.formr.org/).
+4.  {{< fa dumbbell >}} **Exercises**: Complete the implementation exercises (see below).
+4.  {{< fa lightbulb >}} **Quiz**: Complete the [online quiz](https://version-control-basics.formr.org/).
+:::
+
+::: fragment
+### Implementation Exercises
+
+1. Commit at least three changes in `recipes.txt`.
+1. Make at least one commit using `git commit --amend`.
+    - For example, add a recipe without a title first, commit, then add a title and use `git commit --amend` to add the title change to the same commit.
+1. Create a `.gitignore` file
+    - Everyone: Create a random file that you want to ignore, for example `random-file.docx`.
+    - All macOS users: Let your repository ignore `.DS_Store`
+1. :rocket: Optional: Commit `.gitkeep` in an otherwise empty directory
 :::
 
 ::: fragment
@@ -230,24 +242,4 @@ Ask questions!
 Let's *git* started!
 :::
 
-## Implementation Exercises
 
-::: fragment
-:memo: make at least 3 commit in `recipes.txt`
-:::
-
-::: fragment
-:memo: make one commit using ``` git --amend`` - add a recipe without title - add title - use ```git commit --amend\` to add the title change to the same commit
-:::
-
-::: fragment
-:memo: create a .gitignore file - all mac users: ignore .DS_Store
-:::
-
-::: fragment
-:memo: complete the [basics](https://version-control-basics.formr.org) quiz
-:::
-
-::: fragment
-:rocket: Optional: use `.gitkeep` in an otherwise empty directory
-:::
