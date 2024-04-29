@@ -193,7 +193,7 @@
     "href": "sessions/slides_session04.html#last-and-this-weeks-learning-objectives",
     "title": "Session 4: Basic Git workflow",
     "section": "Last and this week’s learning objectives",
-    "text": "Last and this week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file\n\n\nNote: These are the learning objectives for this and next week."
+    "text": "Last and this week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories\n\n\nNote: These are the learning objectives for this and next week."
   },
   {
     "objectID": "sessions/slides_session04.html#staging-and-committing",
@@ -732,7 +732,7 @@
     "href": "sessions/session04.html#learning-objectives",
     "title": "Basic Git workflow",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file"
+    "text": "Learning objectives\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
   },
   {
     "objectID": "sessions/session04.html#slides",
@@ -781,7 +781,7 @@
     "href": "sessions/slides_session03.html#this-and-next-weeks-learning-objectives",
     "title": "Session 3: First steps with Git",
     "section": "This and next week’s learning objectives",
-    "text": "This and next week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file\n\n\nNote: These are the learning objectives for this and next week."
+    "text": "This and next week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories\n\n\nNote: These are the learning objectives for this and next week."
   },
   {
     "objectID": "sessions/slides_session03.html#your-turn",
@@ -823,7 +823,7 @@
     "href": "sessions/session03.html#learning-objectives",
     "title": "First steps with Git",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file"
+    "text": "Learning objectives\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
   },
   {
     "objectID": "sessions/session03.html#slides",
