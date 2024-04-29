@@ -8,6 +8,35 @@ metadata-files:
 
 # Admin
 
+## {{< fa circle-question >}} How can I download the slides as PDF?
+
+Instructions can now be found above the slides on the course website:
+
+{{< include _print-to-pdf.qmd >}}
+
+## {{< fa circle-question >}} When do I have to "Take the quiz"?
+
+- Many chapters contain a "Take the quiz!" button
+- These are the same quizzes that we assign to your as part of the sessions' learning objectives
+- TL;DR: Take the quiz when we tell you
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+
+```{=html}
+<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
+```
+
+## {{< fa circle-question >}} Will we also learn about Python or R?
+
+- No, not directly, but you are free to use Git to track Python or R files that you use for other projects
+- We will have a [Quarto](https://quarto.org/) workshop in two weeks:
+
+```{=html}
+<iframe width="100%" height="75%" src="https://quarto.org/" style="border:2px solid black;" title="Quarto website"></iframe>
+```
+
+# Last week: Setup and first steps with Git
+
 ## Schedule
 
 ```{r}
@@ -17,8 +46,6 @@ metadata-files:
 #| warning: false
 create_schedule()
 ```
-
-# Last week: Setup and first steps with Git
 
 ## Last week: Setup and first steps with Git
 
@@ -45,23 +72,7 @@ create_schedule()
 Note: These are the learning objectives for this and next week.
 :::
 
-## {{< fa circle-question >}} How can I download the slides as PDF?
 
-Instructions can now be found above the slides on the course website:
-
-{{< include _print-to-pdf.qmd >}}
-
-## {{< fa circle-question >}} Take the quiz?
-
-- Many chapters contain a "Take the quiz!" button
-- These are the same quizzes that we assign to your as part of the sessions' learning objectives
-- TL;DR: Take the quiz when we tell you
-
-{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
-
-```{=html}
-<iframe width="100%" height="60%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" style="border:2px solid black;" title="Version Control Book"></iframe>
-```
 
 ## Staging and Committing
 
