@@ -101,25 +101,21 @@ create_schedule()
 Note: These are the learning objectives for this and next week.
 :::
 
-
-
 ## Staging and Committing
 
 ::: columns
 ::: {.column width="50%"}
-### **Staging:**
+### Staging:
 
--   `git add`
-
--   Preparing and organizing files before they are permanently recorded in the repository's history
+-   Command: `git add`
+-   Purpose: Preparing and organizing files before they are recorded in the repository's history.
 :::
 
 ::: {.column width="50%"}
-### **Committing:**
+### Committing:
 
--   `git commit -m "commit message"`
-
--   Saving the changes in the staged files to the repository's history, creating a permanent snapsho
+-   Command: `git commit -m "commit message"`
+-   Purpose: Saving the changes in the staged files to the repository's history, creating a snapshot.
 :::
 :::
 
@@ -189,20 +185,19 @@ Date:   Wed Mar 6 13:51:07 2024 +0100
 :::
 :::
 
-## More Terminology
+## Terminology: What are "branches"?
 
-### **Branches:**
+See next week!
 
-{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/branches.html](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/branches.html](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="75%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
 ```
 
-## More Terminology
-### **HEAD:**
+## Terminology: What is `HEAD`?
 
-{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head)
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head)
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#head" title="Version Control Book"></iframe>
