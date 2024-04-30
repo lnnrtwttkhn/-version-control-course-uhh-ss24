@@ -1,0 +1,116 @@
+---
+title: "Session 5: Branches"
+date: 2024-05-06
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+# Last Week: First steps with Git
+
+## Last week: First steps with Git
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
+```
+
+## Last week's learning objectives
+
+# Survey Results
+
+::: fragment
+### Setup
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+:::
+
+::: fragment
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+# Today's topic: Branches
+
+## Today's topic: Branches
+
+::: fragment
+![Source:[atlassian.com](https://www.atlassian.com/git/tutorials/using-branches)](../images/branches.png){width="70%"}
+:::
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/branches.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+```
+
+## This weeks learning objectives
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
+3.  **Note:** We will do the implementation exercises in class together, step-by-step.
+4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
+:::
+
+::: fragment
+Ask questions!
+
+Let's *git* started!
+:::
+::: fragment
+and *branch* out
+:::
+
+## Implementation Exercises
+
+::: fragment
+
+:memo: Create and **merge** a branch
+
+1. Create a new branch called feature.
+1. Switch to your new branch.
+1. Add a new recipe to your recipe text file.
+1. Switch back to your main branch
+1. Merge this branch with your main branch and delete the feature branch afterwards.
+
+:::
+
+::: fragment
+:memo: Create and resolve a  **merge conflict** 
+
+1. Create a new branch called feature.
+1. Add text to your recipe file on your main branch
+1. Switch to your new feature branch.
+1. Add text to your recipe file on your new feature branch
+1. Merge this branch with your main branch, resolve the merge conflict and delete the feature branch afterwards.
+:::
+
+# GUI´s
+
+## GUI´s 
+
+{{< fa display >}} [lennartwittkuhn.com/version-control-book/chapters/gui.html](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
+```
+
+
+
