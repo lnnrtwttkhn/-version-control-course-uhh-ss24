@@ -27,8 +27,6 @@ create_schedule()
 
 ## Last week's learning objectives
 
-# Survey Results
-
 ::: fragment
 ### Setup
 
@@ -41,6 +39,8 @@ create_schedule()
 {{< include ../objectives/_objectives-firststeps.qmd >}}
 :::
 
+# Survey Results
+
 # Today's topic: Branches
 
 ## Today's topic: Branches
@@ -48,6 +48,8 @@ create_schedule()
 ::: fragment
 ![Source:[atlassian.com](https://www.atlassian.com/git/tutorials/using-branches)](../images/branches.png){width="70%"}
 :::
+
+# Live demonstration
 
 ## Today's chapter
 
@@ -111,6 +113,3 @@ and *branch* out
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
-
-
-
