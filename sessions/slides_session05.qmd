@@ -25,6 +25,13 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 ```
 
+## Last week´s question: Saving Command line history
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history" title="Version Control Book"></iframe>
+```
+
 ## Last week's learning objectives
 
 ::: fragment
