@@ -105,6 +105,10 @@ and *branch* out
 1. Merge this branch with your main branch, resolve the merge conflict and delete the feature branch afterwards.
 :::
 
+::: fragment
+:memo: Complete the [branches quiz](https://version-control-branches.formr.org)
+:::
+
 # GUI´s
 
 ## GUI´s 
