@@ -13,8 +13,8 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <meta name="dcterms.date" content="2024-04-22">
-  <title>Version Control of Code and Data - Session 3: First steps with Git</title>
+  <meta name="dcterms.date" content="2024-05-06">
+  <title>Version Control of Code and Data - Session 5: Branches</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,6 +32,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -331,7 +396,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 3: First steps with Git</h1>
+  <h1 class="title">Session 5: Branches</h1>
   <p class="subtitle"></p><p>Track, organize and share your work: An introduction to Git for psychological research</p>
 <p><a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.25592/uhhfdm.14149"><img data-src="https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg" alt="DOI"></a></p><p></p>
@@ -355,13 +420,15 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 </div>
 
-  <p class="date">April 22, 2024</p>
+  <p class="date">May 6, 2024</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/last-week-the-command-line" id="/toc-last-week-the-command-line"><span class="header-section-number">1</span> Last week: The command line</a></li>
-<li><a href="#/this-week-first-steps-with-git" id="/toc-this-week-first-steps-with-git"><span class="header-section-number">2</span> This week: First steps with Git</a></li>
+<li><a href="#/last-week-first-steps-with-git" id="/toc-last-week-first-steps-with-git"><span class="header-section-number">1</span> Last week: First steps with Git</a></li>
+<li><a href="#/survey-results" id="/toc-survey-results"><span class="header-section-number">2</span> Survey Results</a></li>
+<li><a href="#/todays-topic-branches" id="/toc-todays-topic-branches"><span class="header-section-number">3</span> Today’s topic: Branches</a></li>
+<li><a href="#/guis" id="/toc-guis"><span class="header-section-number">4</span> GUIs</a></li>
 </ul>
 </nav>
 </section>
@@ -499,44 +566,32 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 </div>
 </section>
 <section>
-<section id="last-week-the-command-line" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Last week: The command line</h1>
+<section id="last-week-first-steps-with-git" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Last week: First steps with Git</h1>
 
 </section>
-<section id="last-week-the-command-line-1" class="slide level2">
-<h2>Last week: The command line</h2>
-
-<img data-src="../images/command-line.png" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png">Wikimedia Commons</a> (free license)</p></section>
-<section id="last-weeks-learning-objectives" class="slide level2">
-<h2>Last week’s learning objectives</h2>
-<p>After the last session, you should now be able to answer the following questions / do the following:</p>
-<p><span class="emoji" data-emoji="bulb">💡</span> You can navigate directories using the command line <br> <span class="emoji" data-emoji="bulb">💡</span> You can use shortcuts like the tilde or dots to navigate your file system <br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between absolute and relative paths <br> <span class="emoji" data-emoji="bulb">💡</span> You can use arguments and flags to modify command-line commands <br> <span class="emoji" data-emoji="bulb">💡</span> You understand the concept of wild cards (<code>*</code>) and can use it for system navigation</p>
-<div class="fragment">
-<!-- -->
-<h3 id="recipes-project"><code>recipes</code> project</h3>
-<p>At the end of last week’s session, you should have accomplished the following:</p>
-<ol type="1">
-<li>You used the command line to create a folder on your computer called <code>recipes</code>.</li>
-<li>You used the command line to create a file called <code>recipes.txt</code> inside the <code>recipes</code> folder.</li>
-</ol>
-<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
-</div>
-</section>
-<section id="command-line-quiz-results" class="slide level2">
-<h2>Command Line Quiz Results</h2>
-</section></section>
-<section>
-<section id="this-week-first-steps-with-git" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> This week: First steps with Git</h1>
-
-</section>
-<section id="todays-chapter" class="slide level2">
-<h2>Today’s chapter</h2>
+<section id="last-week-first-steps-with-git-1" class="slide level2">
+<h2>Last week: First steps with Git</h2>
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html" title="Version Control Book"></iframe>
 </section>
-<section id="this-and-next-weeks-learning-objectives" class="slide level2">
-<h2>This and next week’s learning objectives</h2>
+<section id="last-weeks-question-saving-command-line-history" class="slide level2">
+<h2>Last week’s question: Saving command line history?</h2>
+<p>Use this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">history</span> <span class="op">&gt;</span> history.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history">https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history</a></p>
+<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history" title="Version Control Book"></iframe>
+</section>
+<section id="last-weeks-question-commit-.gitignore" class="slide level2">
+<h2>Last week’s question: Commit <code>.gitignore</code>?</h2>
+<p>Yes, commit your project-specific <code>.gitignore</code> file.</p>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore">https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore</a></p>
+<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore" title="Version Control Book"></iframe>
+</section>
+<section id="last-weeks-learning-objectives" class="slide level2">
+<h2>Last week’s learning objectives</h2>
 <div class="fragment">
 <!-- -->
 <h3 id="setup">Setup</h3>
@@ -547,35 +602,93 @@ Konrad Pagenstedt <a href="https://orcid.org/0009-0000-6867-1546" class="quarto-
 <h3 id="first-steps-with-git">First steps with Git</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You can initialize a Git repository<br> <span class="emoji" data-emoji="bulb">💡</span> You can stage and commit changes<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to explore the commit history<br> <span class="emoji" data-emoji="bulb">💡</span> You can compare different commits<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to use and create a <code>.gitignore</code> file<br> <span class="emoji" data-emoji="bulb">💡</span> You can discuss which files can (not) be tracked well with Git and why<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to track empty folders in Git repositories</p>
 </div>
-<div class="fragment">
-<p>Note: These are the learning objectives for this and next week.</p>
-</div>
+</section></section>
+<section id="survey-results" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Survey Results</h1>
+
+</section>
+
+<section>
+<section id="todays-topic-branches" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> Today’s topic: Branches</h1>
+
+</section>
+<section id="todays-topic-branches-1" class="slide level2">
+<h2>Today’s topic: Branches</h2>
+
+<img data-src="../images/turing-way-branches.png" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html">Chapter “Git Branches”</a> of the <a href="https://book.the-turing-way.org/">“The Turing Way handbook to reproducible, ethical and collaborative data science”</a>, used under a <a href="https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md">Creative Commons Attribution 4.0 License</a>.</p><aside class="notes">
+<p><strong>Illustration of branches in a Git repository.</strong> Each circle represents a commit. Commits on the <code>Main</code> branch are shown in gray. The branch <code>Feature A</code> (blue circles) was created from the <code>Main</code> branch and later merged again. In-between, another branch <code>Feature A-1</code> was created from the <code>Feature A</code> branch (green circles) and merged with that branch again before the <code>Feature A</code> branch was eventually merged with the <code>Main</code> branch. The branch <code>Feature B</code> was created but abandoned and not merged with the <code>Main</code> branch.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="todays-chapter" class="slide level2">
+<h2>Today’s chapter</h2>
+<p><i class="fa-brands fa-internet-explorer" aria-label="internet-explorer"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" class="uri">https://lennartwittkuhn.com/version-control-book/chapters/branches.html</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+</section>
+<section id="this-weeks-learning-objectives" class="slide level2">
+<h2>This weeks learning objectives</h2>
+<p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts</p>
 </section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn</h2>
 <div>
 <ol type="1">
-<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapters <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">“Setup”</a> and <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">“First steps with Git”</a> in the Version Control Book</li>
+<li class="fragment"><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review</strong>: Read the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a> in the Version Control Book.</li>
 <li class="fragment"><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter! Play around! Have fun!</li>
 <li class="fragment"><strong>Note:</strong> We will do the implementation exercises in class together, step-by-step.</li>
+<li class="fragment"><i class="fa-solid fa-dumbbell" aria-label="dumbbell"></i> <strong>Exercises</strong>: Complete the exercises in the <a href="https://version-control-branches.formr.org/">survey</a>.</li>
 </ol>
 </div>
 <div class="fragment">
 <p>Ask questions!</p>
 <p>Let’s <em>git</em> started!</p>
 </div>
+<div class="fragment">
+<p>and <em>branch</em> out</p>
+</div>
 </section>
 <section id="implementation-exercises" class="slide level2">
-<h2>Implementation exercises</h2>
+<h2>Implementation Exercises</h2>
 <div class="fragment">
-<p><span class="emoji" data-emoji="memo">📝</span> Set your Git username and email address.<br> <span class="emoji" data-emoji="memo">📝</span> Change the default name of the initial “branch”.<br> <span class="emoji" data-emoji="rocket">🚀</span> Optional: Change your default text editor.</p>
+<!-- -->
+<h3 id="create-and-merge-a-branch">1. Create and merge a branch</h3>
+<ol type="1">
+<li>Create a new branch called <code>feature</code>.</li>
+<li>Switch to your new branch.</li>
+<li>Add a new recipe to your recipes text file.</li>
+<li>Switch back to the default branch (<code>main</code> or <code>master</code>).</li>
+<li>Merge the <code>feature</code> branch with your default branch and delete the <code>feature</code> branch afterwards.</li>
+</ol>
 </div>
 <div class="fragment">
-<p><span class="emoji" data-emoji="memo">📝</span> <strong>Setup:</strong> Create a <code>recipes</code> folder and <strong>turn it into a Git repository.</strong> <br> <span class="emoji" data-emoji="memo">📝</span> <strong>Add Content:</strong> Write down a <em>short</em> recipe (any favorite or an intriguing AI-generated one) in <code>recipes.txt</code>. <br> <span class="emoji" data-emoji="memo">📝</span> <strong>Save Changes:</strong> Stage and commit your changes to the repository. <br></p>
+<!-- -->
+<h3 id="create-and-resolve-a-merge-conflict">2. Create and resolve a merge conflict</h3>
+<p>Deliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter. Resolve the merge conflict and delete the feature branch afterwards.</p>
 </div>
 <div class="fragment">
-<p>Note: There are several terms in these instructions that might still be unfamiliar to you, for example “repository”, “stage” or “commit”. Don’t worry, you will learn about what these terms mean in the chapters.</p>
+<!-- -->
+<h3 id="complete-the-branches-quiz">3. Complete the <a href="https://version-control-branches.formr.org">branches quiz</a></h3>
 </div>
+</section></section>
+<section>
+<section id="guis" class="title-slide slide level1 center" data-number="4">
+<h1><span class="header-section-number">4</span> GUIs</h1>
+
+</section>
+<section id="guis-1" class="slide level2">
+<h2>GUIs</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/gui.html">lennartwittkuhn.com/version-control-book/chapters/gui.html</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 
 <div class="footer footer-default">
 <p>Version Control Course</p>
