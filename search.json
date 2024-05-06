@@ -130,7 +130,7 @@
     "href": "sessions/session05.html#learning-objectives",
     "title": "Branches",
     "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You understand the purpose and benefits of using branches in Git 💡 You can create and switch between branches 💡 You can merge branches and resolve merge conflicts"
+    "text": "Learning objectives\n💡 You understand the purpose and benefits of using branches in Git 💡 You can create and switch between branches 💡 You can merge branches and resolve merge conflicts 💡 You can name at least three best practices when working with branches"
   },
   {
     "objectID": "sessions/session05.html#slides",
@@ -1043,6 +1043,13 @@
     "text": "Last week’s learning objectives\n\n\nSetup\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes 💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
   },
   {
+    "objectID": "sessions/slides_session05.html#recap-best-practices-for-commit-messages",
+    "href": "sessions/slides_session05.html#recap-best-practices-for-commit-messages",
+    "title": "Session 5: Branches",
+    "section": "Recap: Best practices for commit messages",
+    "text": "Recap: Best practices for commit messages\n\n\n\n\n\nTry to keep commit messages short (less than 72 characters)\nUse present tense and start with an imperative verb to indicate the purpose of the commit, for example “add”, “fix”, “improve” (as if you are giving orders to the codebase to change its behavior)\n\n\nIf applied, this commit will … [your commit message]\n\n\nTry to describe why a change is being made\nLink specific issues that are addressed by your commit\nUse the description for more explanation and context"
+  },
+  {
     "objectID": "sessions/slides_session05.html#todays-topic-branches-1",
     "href": "sessions/slides_session05.html#todays-topic-branches-1",
     "title": "Session 5: Branches",
@@ -1061,7 +1068,7 @@
     "href": "sessions/slides_session05.html#this-weeks-learning-objectives",
     "title": "Session 5: Branches",
     "section": "This weeks learning objectives",
-    "text": "This weeks learning objectives\n💡 You understand the purpose and benefits of using branches in Git 💡 You can create and switch between branches 💡 You can merge branches and resolve merge conflicts"
+    "text": "This weeks learning objectives\n💡 You understand the purpose and benefits of using branches in Git 💡 You can create and switch between branches 💡 You can merge branches and resolve merge conflicts 💡 You can name at least three best practices when working with branches"
   },
   {
     "objectID": "sessions/slides_session05.html#your-turn",
