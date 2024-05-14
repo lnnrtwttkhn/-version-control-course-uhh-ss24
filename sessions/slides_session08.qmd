@@ -6,6 +6,8 @@ metadata-files:
   - _slides.yml
 ---
 
+# Schedule
+
 ## Schedule
 
 ```{r}
@@ -15,6 +17,8 @@ metadata-files:
 #| warning: false
 create_schedule()
 ```
+
+# Last Session
 
 ## Last session: Quarto Workshop
 
@@ -37,7 +41,7 @@ create_schedule()
 
 ::: fragment
 
-To prevent ever creating a Git repository inside your user folder, you can use:
+**Tip:** To prevent ever creating a Git repository inside your user folder, you can use:
 
 ```{bash}
 touch ~/.git
@@ -47,11 +51,21 @@ Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339)
 
 ::: 
 
+# This Week´s topic
+
 ## Today's topic: Introduction to GitHub
 
 ::: fragment
-![](../images/git-github-integration.png){width="70%"}
+
+![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
 :::
+
+## This weeks learning objectives
+
+::: fragment
+`{{< include ../objectives/_objectives-github-intro.qmd >}`
+:::
+
 
 ## Today's chapter
 
