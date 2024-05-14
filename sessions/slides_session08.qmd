@@ -16,7 +16,7 @@ metadata-files:
 create_schedule()
 ```
 
-# Last session: Quarto Workshop
+## Last session: Quarto Workshop
 
 {{< fa display >}} [https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06](https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06)
 ```{=html}
@@ -24,6 +24,28 @@ create_schedule()
 ```
 
 ## Last week's questions?
+
+## Important Note: Git repository in user folder?
+
+::: fragment
+
+ - Please make sure that your `recipe` repository is in a suitable place (e.g. desktop, documents...) and **not** e.g. in your user folder
+
+- If this is the case, please **tell Lennart**
+ 
+:::
+
+::: fragment
+
+To prevent ever creating a Git repository inside your user folder, you can use:
+
+```{bash}
+touch ~/.git
+```
+
+Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339)
+
+::: 
 
 ## Today's topic: Introduction to GitHub
 
@@ -55,6 +77,17 @@ Let's *git* started!
 
 ## Implementation Exercises
 
+1. Upload your repository to GitHub
 
+1. Create a new repository on GitHub.
+1. Set the remote URL to your GitHub repository.
+1  Push your repository to GitHub.
 
+2. Clean up your repository
+
+If you have unnecessary files in your repository:
+
+1. Click on the file you want to delete and choose **Delete file**
+1. **Commit** the change and choose a **commit message**
+1. **Pull** the changes to your local repository
 
