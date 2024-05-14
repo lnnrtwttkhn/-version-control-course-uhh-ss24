@@ -77,17 +77,35 @@ Let's *git* started!
 
 ## Implementation Exercises
 
-1. Upload your repository to GitHub
+::: {.columns}
+::: {.column width="33%"}
+### Upload and Manage Your Repository
+- **Upload your repository**:
+  1. Create a new private repository on GitHub.
+  2. Set the remote URL for your local Git repository.
+  3. Push your main branch to GitHub.
+- **Manage branches (Optional)**:
+  1. Push other branches with changes to GitHub.
+  2. Delete unused branches.
+:::
 
-1. Create a new repository on GitHub.
-1. Set the remote URL to your GitHub repository.
-1  Push your repository to GitHub.
+::: {.column width="33%"}
+### Maintain and Collaborate
+- **Clean up your repository**:
+  1. Delete unnecessary files or add a new recipe.
+  2. Commit changes with a message.
+  3. Pull the changes to your local repository.
+- **Collaboration**:
+  1. Add collaborators: [Lennart](https://github.com/lnnrtwttkhn) and [Konrad](https://github.com/konradpa?tab=repositories).
+:::
 
-2. Clean up your repository
-
-If you have unnecessary files in your repository:
-
-1. Click on the file you want to delete and choose **Delete file**
-1. **Commit** the change and choose a **commit message**
-1. **Pull** the changes to your local repository
-
+::: {.column width="33%"}
+### Cloning and Testing (optional)
+- **Clone and sync**:
+  1. Clone your repository to a different location.
+  2. Make and push changes.
+  3. Pull changes to the original repository.
+  4. Delete your newly cloned repository.
+  
+:::
+::::
