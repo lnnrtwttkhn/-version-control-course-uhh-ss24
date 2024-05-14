@@ -66,6 +66,7 @@ Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339)
 ::: incremental
 1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
 3.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
 :::
 
@@ -79,6 +80,7 @@ Let's *git* started!
 
 ::: {.columns}
 ::: {.column width="33%"}
+::: fragment
 ### Upload and Manage Your Repository
 - **Upload your repository**:
   1. Create a new private repository on GitHub.
@@ -87,25 +89,32 @@ Let's *git* started!
 - **Manage branches (Optional)**:
   1. Push other branches with changes to GitHub.
   2. Delete unused branches.
+  
+:::
 :::
 
 ::: {.column width="33%"}
+::: fragment
 ### Maintain and Collaborate
 - **Clean up your repository**:
   1. Delete unnecessary files or add a new recipe.
   2. Commit changes with a message.
   3. Pull the changes to your local repository.
 - **Collaboration**:
-  1. Add collaborators: [Lennart](https://github.com/lnnrtwttkhn) and [Konrad](https://github.com/konradpa?tab=repositories).
+  1. Add collaborators: Lennart ([\@lnnrtwttkhn](https://github.com/lnnrtwttkhn)) and Konrad ([\@konradpa](https://github.com/konradpa?tab=repositories)).
+  
+:::
 :::
 
 ::: {.column width="33%"}
+::: fragment
 ### Cloning and Testing (optional)
 - **Clone and sync**:
   1. Clone your repository to a different location.
   2. Make and push changes.
   3. Pull changes to the original repository.
   4. Delete your newly cloned repository.
-  
+
+:::
 :::
 ::::
