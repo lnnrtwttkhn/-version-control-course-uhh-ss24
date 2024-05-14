@@ -47,6 +47,21 @@ At the end of this session, you should have accomplished the following:
 
 `{{< include ../objectives/_objectives-github-intro.qmd >}}`
 
+## Email (Draft)
+
+Dear course participants,
+
+Please ensure you have a working GitHub account before our next session on Monday. 
+If you do not have one yet, please create an account at https://github.com/.
+
+If you encounter any issues or have any questions, feel free to contact us via email.
+
+We look forward to seeing you on Monday!
+
+Best wishes,
+
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
+
 ## Slides
 
 ```{=html}
