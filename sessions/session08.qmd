@@ -24,6 +24,29 @@ about:
 ::: {#hero-heading}
 :::
 
+## This session
+
+In this session, you will complete the following tasks:
+
+1. Complete the chapter ["GitHub Intro"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
+1. Complete the exercises for the [`recipes` project](#recipes-project).
+
+As always:
+
+1. Try out the commands in the chapter and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives)(#learning-objectives).
+
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. Created a new GitHub repository and uploaded your `recipe` project
+1. Cleaned up your project by deleting unnecessary files and branches
+
+## Learning objectives
+
+`{{< include ../objectives/_objectives-github-intro.qmd >}}`
+
 ## Slides
 
 ```{=html}
