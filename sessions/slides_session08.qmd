@@ -1,16 +1,10 @@
 ---
-title: "Session 8: Branches"
-date: 2023-12-08
+title: "Session 8: GitHub - Intro"
+date: 2024-05-20
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
-
-## How are you today?
-
-::: fragment
-![](../images/paintings_moodscale.jpg){width="50%"}
-:::
 
 ## Schedule
 
@@ -22,30 +16,35 @@ metadata-files:
 create_schedule()
 ```
 
-## Looking back: Git basics
+# Last session: Quarto Workshop
 
--   **Survey results**
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06](https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/session06" title="Version Control Book"></iframe>
+```
 
-## Today's topic: Branches
+## Last week's questions?
+
+## Today's topic: Introduction to GitHub
 
 ::: fragment
-![](../images/branches.png){width="70%"}
+![](../images/git-github-integration.png){width="70%"}
 :::
 
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/branches.html>
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html>
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
 ```
+
 ## Your turn
 
 ::: incremental
 1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
-2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!
-3.  **Note:** We will do the implementation exercises in class together, step-by-step.
-4.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
 :::
 
 ::: fragment
@@ -53,7 +52,9 @@ Ask questions!
 
 Let's *git* started!
 :::
-::: fragment
-and *branch* out
-:::
+
+## Implementation Exercises
+
+
+
 
