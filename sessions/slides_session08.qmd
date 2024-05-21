@@ -78,7 +78,7 @@ Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339)
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html) in the Version Control Book.
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Intro"](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
 3.  **Note:** Please complete the implementation exercises on the next slide
 3.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
