@@ -1,7 +1,7 @@
 ---
-title: "GitHub"
+title: "GitHub - Collaboration"
 subtitle: "Session 09"
-date: 2023-12-15
+date: 2024-06-03
 about:
   id: hero-heading
   template: solana
@@ -9,11 +9,11 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session09.html
+      href: https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session09.html
       aria-label: display
     - icon: book
-      text: "Chapter: GitHub"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html
+      text: "Chapter: GitHub - Advanced"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html
       aria-label: book
     - icon: input-cursor-text
       text: Exercises
