@@ -56,10 +56,10 @@ create_schedule()
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advances"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
 3.  **Note:** Please complete the implementation exercises on the next slide
-3.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-branches.formr.org/).
+3.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-github.formr.org/).
 :::
 
 ::: fragment
@@ -70,65 +70,11 @@ Let's *git* started!
 
 ## Implementation Exercises
 
-::: {.columns}
-::: {.column width="33%"}
-::: fragment
-### Upload and Manage Your Repository
-- **Upload your repository**:
-  1. Create a new private repository on GitHub.
-  2. Set the remote URL for your local Git repository.
-  3. Push your main branch to GitHub.
-- **Manage branches (Optional)**:
-  1. Push other branches with changes to GitHub.
-  2. Delete unused branches.
-  
-:::
-:::
+### Collaborate with a Course Participant
 
-::: {.column width="33%"}
-::: fragment
-### Maintain and Collaborate
-- **Clean up your repository**:
-  1. Delete unnecessary files or add a new recipe.
-  2. Commit changes with a message.
-  3. Pull the changes to your local repository.
-- **Collaboration**:
-  1. Add collaborators: Lennart ([\@lnnrtwttkhn](https://github.com/lnnrtwttkhn)) and Konrad ([\@konradpa](https://github.com/konradpa?tab=repositories)).
-  
-:::
-:::
-
-::: {.column width="33%"}
-::: fragment
-### `README` file
-
-1. Navigate to your repository on GitHub, click "Add file", and select "Create new file".
-
-1. Name the file README.md, add a brief description of your project, and provide a commit message.
-
-1. Click the green "Commit new file" button to save the README file to the repository.
-
-### Fetching and merging
-
-1. Run git fetch to retrieve the latest changes from the remote repository.
-
-1. Run git merge origin/main to merge the fetched changes into your local branch.
-
-1. Verify that your local repository now includes the changes made on GitHub.
-
-:::
-:::
-::::
-
-## Implementation Exercises (Bonus)
-
-::: fragment
-
-### Cloning and Testing (optional)
-- **Clone and sync**:
-  1. Clone your repository to a different location.
-  2. Make and push changes.
-  3. Pull changes to the original repository.
-  4. Delete your newly cloned repository.
-  
-:::
+1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html#forking-a-repository) is
+1. **Fork the recipes repository** of another course participant 
+1. **Clone** the *forked* repository
+1. **Create a new branch** and create **one or multiple commits** 
+1. **Push** your changes to GitHub
+1. **Create a pull request** with your changes (hint: from the fork to the original repo) and review each others pull requests
