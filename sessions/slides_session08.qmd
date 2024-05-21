@@ -122,13 +122,35 @@ Let's *git* started!
 
 ::: {.column width="33%"}
 ::: fragment
+### `README` file
+
+1. Navigate to your repository on GitHub, click "Add file", and select "Create new file".
+
+1. Name the file README.md, add a brief description of your project, and provide a commit message.
+
+1. Click the green "Commit new file" button to save the README file to the repository.
+
+### Fetching and merging
+
+1. Run git fetch to retrieve the latest changes from the remote repository.
+
+1. Run git merge origin/main to merge the fetched changes into your local branch.
+
+1. Verify that your local repository now includes the changes made on GitHub.
+
+:::
+:::
+::::
+
+## Implementation Exercises (Bonus)
+
+::: fragment
+
 ### Cloning and Testing (optional)
 - **Clone and sync**:
   1. Clone your repository to a different location.
   2. Make and push changes.
   3. Pull changes to the original repository.
   4. Delete your newly cloned repository.
-
+  
 :::
-:::
-::::
