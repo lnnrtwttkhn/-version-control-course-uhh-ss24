@@ -40,8 +40,10 @@ As always:
 
 At the end of this session, you should have accomplished the following:
 
+1. Connected your GitHub account to your local Git.
 1. Created a new GitHub repository and uploaded your `recipe` project
 1. Cleaned up your project by deleting unnecessary files and branches
+1. Created a short README file in your repository.
 
 ## Learning objectives
 

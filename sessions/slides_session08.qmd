@@ -94,7 +94,12 @@ Let's *git* started!
 ::: {.columns}
 ::: {.column width="33%"}
 ::: fragment
+
 ### Upload and Manage Your Repository
+
+- **Connect your GitHub account**
+  1. Generate a PAT on GitHub
+  1. Use the Token for Git Authentication
 - **Upload your repository**:
   1. Create a new private repository on GitHub.
   2. Set the remote URL for your local Git repository.
@@ -129,17 +134,11 @@ Let's *git* started!
 
 1. Click the green "Commit new file" button to save the README file to the repository.
 
-### Fetching and merging
-
-1. Run git fetch to retrieve the latest changes from the remote repository.
-
-1. Run git merge origin/main to merge the fetched changes into your local branch.
-
-1. Verify that your local repository now includes the changes made on GitHub.
+1. Pull the changes to your local repository.
 
 :::
 :::
-::::
+:::
 
 ## Implementation Exercises (Bonus)
 
