@@ -99,7 +99,7 @@ Ask questions!
 Let's *git* started!
 :::
 
-## Implementation Exercises
+## Implementation exercises
 
 ::::: {.columns}
 :::: {.column width="33%"}
