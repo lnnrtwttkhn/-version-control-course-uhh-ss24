@@ -41,16 +41,25 @@ create_schedule()
 **Tip:** To prevent ever creating a Git repository inside your `user` folder, you can use:
 
 ::: {.columns}
-::: {.column width="20%"}
+::: {.column width="40%"}
 ```{zsh filename="Code"}
 touch ~/.git
 ```
 :::
 :::
+:::
+
+::: {.fragment}
+
+Running `git init` in the `user` directory now results in a (desired) error:
+
+::: {.column width="40%"}
+```{zsh filename="Output"}
+fatal: invalid gitfile format: /Users/user/.git
+```
+:::
 
 Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for the idea!
-
-
 ::: 
 
 # This week: Introduction to GitHub
