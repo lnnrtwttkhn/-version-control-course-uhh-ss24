@@ -57,6 +57,8 @@ If you have not done so yet, please ensure that you have uploaded ("pushed") you
 
 Files that your repository should include are the recipe.qmd file, the .gitignore file and a README.md file.
 Please  try to remove any unnecessary files or clutter, like empty .txt files from your repository.
+You can delete file in GitHub by clicking on the three dots next to the directory and selecting "Delete file," then commit the changes. 
+This effectively runs git add and git commit on GitHub.
 
 If you encounter any issues or have any questions, feel free to contact us via email.
 
