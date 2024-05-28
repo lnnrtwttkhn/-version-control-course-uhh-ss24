@@ -110,4 +110,6 @@ Let's *git* started!
 :::
 ::::
 
+{{< include _job-advertizement_2.qmd >}}
+
 

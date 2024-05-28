@@ -1,0 +1,19 @@
+## Research assistant position
+
+
+::: {.fragment}
+
+#### Open educational ressources project 
+
+![[unesco.de/](https://www.unesco.de/wissen/wissenschaft/open-science/umsetzung-der-unesco-empfehlung-zu-open-science)](../images/open-science.jpg){fig-align="center" width="50%"}
+:::
+
+::: {.fragment}
+
+- :notebook: **Tasks:** Support my new project!
+- :calendar: **Duration:** flexible
+- :clock1: **Time:** flexible
+- :moneybag: **Salary:** 13.25 € / hour (SHK) / 15.21 € / hour (WHK)
+- :envelope: **Contact:** [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
+
+:::
