@@ -27,7 +27,12 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
 ```
 
-## Last week's questions?
+## Last weeks learning objectives
+
+
+{{< include ../objectives/_objectives-github-intro.qmd >}}
+
+## Questions about last week?
 
 # This Week´s topic
 
@@ -36,14 +41,20 @@ create_schedule()
 ::: fragment
 
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
+
+:::
+
+## GitHub flow
+
+::: fragment
+
+![Image from [Sebass van Boxel](https://github.com/SvanBoxel/release-based-workflow/issues/1)](../images/github_flow.png){width="70%"}
+
 :::
 
 ## This weeks learning objectives
 
-::: fragment
-`{{< include ../objectives/_objectives-github-advanced.qmd >}`
-:::
-
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
 
 ## Today's chapter
 
@@ -70,11 +81,17 @@ Let's *git* started!
 
 ## Implementation Exercises
 
-### Collaborate with a Course Participant
+### Collaborate with a Course Participant ("GitHub Flow")
 
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html#forking-a-repository) is
-1. **Fork the recipes repository** of another course participant 
-1. **Clone** the *forked* repository
-1. **Create a new branch** and create **one or multiple commits** 
-1. **Push** your changes to GitHub
-1. **Create a pull request** with your changes (hint: from the fork to the original repo) and review each others pull requests
+#### **Private collaboration** with pull requests
+
+1. Add your partner as a collaborator for your recipes repo
+1. Clone your partner's repository
+1. Create a new branch in your partner's repository
+1. Add a recipe to your partner's recipe.qmd file
+1. Add and commit the changes
+1. Create a Pull Request
+1. Review the PR your partner made in your repository
+1. Merge the PR into your repository
+
+
