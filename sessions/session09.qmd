@@ -37,7 +37,34 @@ As always:
 1. Try out the commands in the chapter and play around with them.
 1. Check whether you have achieved the [learning objectives](#learning-objectives).
 
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. Successfully collaborated on a shared project by adding and committing changes to a partner's repository.
+1. Created and reviewed a pull request to integrate new content from a partner.
 ## Learning objectives
+
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
+
+## Email
+
+Dear course participants,
+
+We have a quick request to help you prepare for our upcoming seminar.
+
+If you have not done so yet, please ensure that you have uploaded ("pushed") your repository to GitHubnbefore our next session on Monday. 
+
+Files that your repository should include are the recipe.qmd file, the .gitignore file and a README.md file.
+Please  try to remove any unnecessary files or clutter, like empty .txt files from your repository.
+
+If you encounter any issues or have any questions, feel free to contact us via email.
+
+We look forward to seeing you next week!
+
+Best wishes,
+
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
 
 ## Slides
 
