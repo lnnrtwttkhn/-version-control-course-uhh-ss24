@@ -3,7 +3,7 @@
 
 ::: {.fragment}
 
-#### Open educational ressources project 
+#### Open educational resources project 
 
 ![[unesco.de/](https://www.unesco.de/wissen/wissenschaft/open-science/umsetzung-der-unesco-empfehlung-zu-open-science)](../images/open-science.jpg){fig-align="center" width="50%"}
 :::
