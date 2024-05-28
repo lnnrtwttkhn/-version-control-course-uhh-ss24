@@ -81,9 +81,10 @@ Let's *git* started!
 
 ## Implementation Exercises
 
-### Collaborate with a Course Participant ("GitHub Flow")
-
-#### **Private collaboration** with pull requests
+::::: {.columns}
+:::: {.column width="33%"}
+::: fragment
+#### **Private collaboration** with pull requests (GitHub flow)
 
 1. Add your partner as a collaborator for your recipes repo
 1. Clone your partner's repository
@@ -93,5 +94,20 @@ Let's *git* started!
 1. Create a Pull Request
 1. Review the PR your partner made in your repository
 1. Merge the PR into your repository
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+#### Complete the [GitHub Quiz](https://version-control-github.formr.org)
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+#### **Clean up** your repo and enhance your `README` (optional)
+:::
+:::
+::::
 
 
