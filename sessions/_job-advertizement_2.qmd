@@ -67,7 +67,7 @@ Course on OER for researchers
 ::: {.fragment}
 #### :envelope: Contact
 
--  Questions, interst: [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
+-  Questions, interest: [{{< var team.lennart.email >}}]({{< var team.lennart.mailto >}})
 - Get in touch with Konrad ([{{< var team.konrad.email >}}]({{< var team.konrad.mailto >}})) if you would like to know what the work is like
 :::
 ::::
