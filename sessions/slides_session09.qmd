@@ -6,6 +6,10 @@ metadata-files:
   - _slides.yml
 ---
 
+# Jobs!
+
+{{< include _job-advertizement_2.qmd >}}
+
 # Schedule
 
 ## Schedule
@@ -108,5 +112,7 @@ Let's *git* started!
 :::
 :::
 ::::
+
+# Jobs!
 
 {{< include _job-advertizement_2.qmd >}}
