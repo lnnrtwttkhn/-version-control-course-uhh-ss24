@@ -18,7 +18,7 @@ metadata-files:
 create_schedule()
 ```
 
-# Last Session
+# Last session: GitHub - Intro
 
 ## Last session: GitHub - Intro
 
@@ -27,14 +27,13 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html" title="Version Control Book"></iframe>
 ```
 
-## Last weeks learning objectives
-
+## Last session's learning objectives
 
 {{< include ../objectives/_objectives-github-intro.qmd >}}
 
-## Questions about last week?
+## Questions about the last session?
 
-# This Week´s topic
+# This session's topic: Github - Collaboration
 
 ## Today's topic: GitHub with collaborators
 
@@ -52,7 +51,7 @@ create_schedule()
 
 :::
 
-## This weeks learning objectives
+## This and next session's learning objectives
 
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 
@@ -67,10 +66,10 @@ create_schedule()
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advances"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
 3.  **Note:** Please complete the implementation exercises on the next slide
-3.  {{< fa dumbbell >}} **Exercises**: Complete the exercises in the [survey](https://version-control-github.formr.org/).
+3.  {{< fa dumbbell >}} **Quiz**: Complete the exercises in the [survey](https://version-control-github.formr.org/).
 :::
 
 ::: fragment
@@ -84,12 +83,12 @@ Let's *git* started!
 ::::: {.columns}
 :::: {.column width="33%"}
 ::: fragment
-#### **Private collaboration** with pull requests (GitHub flow)
+#### Task 1: **Private collaboration** with pull requests (using "GitHub flow")
 
-1. Add your partner as a collaborator for your recipes repo
+1. Add your partner as a collaborator to your `recipes` repo
 1. Clone your partner's repository
 1. Create a new branch in your partner's repository
-1. Add a recipe to your partner's recipe.qmd file
+1. Add a recipe to your partner's `recipe.qmd` file
 1. Add and commit the changes
 1. Create a Pull Request
 1. Review the PR your partner made in your repository
@@ -99,17 +98,15 @@ Let's *git* started!
 
 ::: {.column width="33%"}
 ::: fragment
-#### Complete the [GitHub Quiz](https://version-control-github.formr.org)
+#### Task 2: Complete the [GitHub Quiz](https://version-control-github.formr.org)
 :::
 :::
 
 ::: {.column width="33%"}
 ::: fragment
-#### **Clean up** your repo and enhance your `README` (optional)
+#### Task 3: **Clean up** your repo and improve your `README.md` (optional)
 :::
 :::
 ::::
 
 {{< include _job-advertizement_2.qmd >}}
-
-
