@@ -39,7 +39,7 @@ In this session, you will complete the following tasks:
 1. Complete the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) in the Version Control Book.
 1. Complete the chapter ["Issues"]( https://lennartwittkuhn.com/version-control-book/chapters/issues.html) in the Version Control Book.
 1. Complete the exercises for the [`recipes` project](#recipes-project).
-1. Complete the [quiz](https://version-control-github.formr.org/).
+1. Complete the [quiz](https://version-control-github.formr.org/) if you have not yet done so.
 
 As always:
 
@@ -50,22 +50,12 @@ As always:
 
 At the end of this session, you should have accomplished the following:
 
-1. Successfully collaborated on a shared project by adding and committing changes to a partner's repository.
-1. Created and reviewed a pull request to integrate new content from a partner.
+1. Successfully added a recipe to [Lennart`s recipe project](https://github.com/lnnrtwttkhn/recipes)
 
 ## Learning objectives
 
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 {{< include ../objectives/_objectives-issues.qmd >}}
-
-
-## Email
-
-Dear course participants,
-
-Best wishes,
-
-Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
 
 ## Slides
 
