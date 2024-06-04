@@ -27,9 +27,26 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html" title="Version Control Book"></iframe>
 ```
 
-## Questions about the last session?
+## Last week´s session
 
-- Insert Questions
+::: fragment
+**Cloning:**
+
+- Remember to clone a repo in a sensible location (not in your own repository)
+- To rename the cloned repo you can use: `git clone <URL> new-folder-name`
+
+:::
+
+::: fragment
+**Pushing/Pulling workflow:**
+
+1. `git add` + `git commit`
+2. `git pull` 
+3. `git push` 
+:::
+
+
+## Your questions about the last session?
 
 # This session's topic: "Github with the world"
 
