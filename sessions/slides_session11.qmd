@@ -1,5 +1,5 @@
 ---
-title: "Session 11: Repetition & Pratice"
+title: "Session 11: Repetition & Practice"
 date: 2024-06-17
 format: revealjs
 metadata-files:
@@ -31,9 +31,9 @@ create_schedule()
 
 # Your Pull Requests
 
-# This session: Repetition & Pratice
+# This session: Repetition & Practice
 
-## Today's topic: Repetition & Pratice
+## Today's topic: Repetition & Practice
 
 ::::: {.columns}
 :::: {.column width="33%"}
