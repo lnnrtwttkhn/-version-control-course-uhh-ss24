@@ -40,7 +40,7 @@ create_schedule()
 ::: fragment
 
 #### Task 1: **Pull Request to Lennart** 
-- Continue to complete the reviewed PR to Lennart´s recipe repo
+- Continue to complete the reviewed PR to Lennart's recipe repo
 
 :::
 :::
@@ -48,15 +48,15 @@ create_schedule()
 ::: {.column width="33%"}
 ::: fragment
 #### Task 2: **Fix your issue**
-- Complete the Tasks outlined in the issue in your repo and close the issue
+- Complete the tasks outlined in the issue in your repo and close the issue
+- :rocket: Fix the issue on a separate branch and create a PR in your own repo
 :::
 :::
 
 ::: {.column width="33%"}
 ::: fragment
-#### Task 3:* **(Bonus)**
-- Add another recipe to Lennart´s repository
-
+#### Task 3: **(Bonus)**
+- Add another recipe to Lennart's repository or a repository from another course participant
 :::
 :::
 ::::
