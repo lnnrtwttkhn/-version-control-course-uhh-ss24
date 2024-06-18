@@ -36,7 +36,8 @@ As always:
 
 At the end of this session, you should have accomplished the following:
 
-- insert tasks
+1. Created an annotated Tag and a GitHub release
+2. Linked the release to Zenodo´s sandbox and minted a DOI
 
 ## Learning objectives
 
