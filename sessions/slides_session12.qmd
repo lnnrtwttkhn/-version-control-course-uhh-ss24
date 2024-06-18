@@ -63,6 +63,8 @@ Ask questions!
 Let's *git* started!
 :::
 
+# Demo exercise 
+
 ## Implementation Exercises
 
 ::::: {.columns}
@@ -72,7 +74,8 @@ Let's *git* started!
 
 ### Task 1: **Create a Tag**
 
-Create an annotated tag on the main branch in your recipe repo named `v1.0.0.`
+1. Create an annotated tag on the main branch in your recipe repo named `v1.0.0.`
+1. Push the Tag to GitHub
 
 :::
 ::::
@@ -84,9 +87,7 @@ Create an annotated tag on the main branch in your recipe repo named `v1.0.0.`
 
 1. Create a Zenodo account by visiting the Zenodo website and signing up.
 1. Link your GitHub account to Zenodo:
- - Go to Zenodo and log in.
- - Navigate to the “GitHub” tab in your Zenodo settings.
- - Enable the repository for Zenodo integration.
+1. Go to the GitHub section in the [Zenodo sandbox](https://sandbox.zenodo.org) and enable syncing your recipe repository
 :::
 ::::
 
@@ -100,7 +101,8 @@ Create an annotated tag on the main branch in your recipe repo named `v1.0.0.`
 1. Choose the tag `v1.0.0` from the list 
 1. Fill in the release title and description.
 1. Click "Publish release".
-1. Go to the Zenodo sandbox and mint a DOI
+1. Go to the GitHub section in the [Zenodo sandbox](https://sandbox.zenodo.org) and look at your DOI
+
 :::
 ::::
 :::::
