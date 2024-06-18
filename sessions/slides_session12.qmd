@@ -1,16 +1,12 @@
 ---
-title: "Session 12: Advanced GitHub"
-date: 2024-01-19
+title: "Session 12: Tags & Releases"
+date: 2024-06-24
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-::: fragment
-![](../images/mood-animals.jpg){width="50%"}
-:::
+# Schedule
 
 ## Schedule
 
@@ -22,100 +18,93 @@ metadata-files:
 create_schedule()
 ```
 
-## Next week: DataLad Talk
+# Last session: Repetition & Practice 
 
+## Last session: Repetition & Practice
+
+{{< fa display >}} [https://github.com/lnnrtwttkhn/recipes/pulls](https://github.com/lnnrtwttkhn/recipes/pulls)
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html" title="DataLad Talk"></iframe>
+<iframe width="100%" height="80%" src="https://github.com/lnnrtwttkhn/recipes/pulls" title="Your PR`s"></iframe>
 ```
 
-## Survey Participation
+## Questions about the last session?
 
-::: {.fragment}
-Please complete the surveys!
-:::
+# This session's topic: Tags & Releases
 
-## Looking Back: GitHub for collaboration
+## Today's topic: Tags & Releases 
 
-### Part 1
+::: fragment
 
-1.  **Find a partner** to work with today
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html>
 
-2.  Give each other the **rights to collaborate** on your recipe repositories
-
-3.  **Create an issue** on your partner's repository (maybe their repo is missing a great recipe?)
-
-### Part 2
-
-4.  **Clone** your partners repository
-
-5.  **Create a new branch** and create **one or multiple commits** "fixing" the issue
-
-6.  **Push** your changes to GitHub
-
-### Part 3
-
-7.  **Create a pull request** with your changes and refer to the issue
-
-8.  **Close the pull request** of your partner
-
-
-## Today: More GitHub!
-
-1. Creating a **README.md** and **committing changes on GitHub**
-
-1. **Forking** workflow 
-
-1. Optional: **Tags and Releases**
-
-## Your turn (Part 1)
-
-::: {.fragment .fade-in}
-
-### Create a `README.md`
-
-1. Go to your repositories main page and click on **add a README**
-
-1. Use **Markdown syntax** and add the **most important facts** about the repository (link to our seminar website)
-
-1. Click on **Commit changes** and write a relevant **commit message**
+```{=html}
+<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
 
 :::
 
-::: {.fragment .fade-in}
+# Tags and releases - in Research
 
-### Clean up your repository (optional) 
+## This session's learning objectives
 
-If you have unnecessary files in your repository:
+{{< include ../objectives/_objectives-tags-releases.qmd >}}
 
-1. Click on the file you want to delete and choose **Delete file**
+## Your turn
 
-1. **Commit** the change and choose a **commit message**
-
-1. **Pull** the changes to your local repository
-
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
 :::
 
-## Your turn (Part 2)
+::: fragment
+Ask questions!
 
-::: {.fragment .fade-in}
-
-1. Find out what [forking](https://lennartwittkuhn.com/version-control-book/chapters/github-intro.html#forking-a-repository) is
-1. **Fork the recipes repository** of another course participant (including Lennart or Konrad)
-1. Repeat the steps from the previous exercise using the forked repository:
-    1. **Clone** the *forked* repository
-    1. **Create a new branch** and create **one or multiple commits** "fixing" the issue
-    1. **Push** your changes to GitHub
-    1. **Create a pull request** with your changes (hint: from the fork to the original repo) and refer to the issue
-::: 
-
-::: {.fragment .fade-in}
-- Lennart's `recipes` repository: <https://github.com/lnnrtwttkhn/recipes>
-- Konrad's `recipes` repository: <https://github.com/konradpa/Recipes>
-- Your repositories?
+Let's *git* started!
 :::
 
-## Bonus exercise
+## Implementation Exercises
 
-1. Read the [Tags and Releases chapter](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
-1. **Create a tag** marking your recipe repository version
-1. **Create a release** of your "finished" repository on GitHub
+::::: {.columns}
+
+:::: {.column width="33%"}
+::: fragment
+
+### Task 1: **Create a Tag**
+
+Create an annotated tag on the main branch in your recipe repo named `v1.0.0.`
+
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+
+### Task 2: **Create a Zenodo account and link it to GitHub**
+
+1. Create a Zenodo account by visiting the Zenodo website and signing up.
+1. Link your GitHub account to Zenodo:
+ - Go to Zenodo and log in.
+ - Navigate to the “GitHub” tab in your Zenodo settings.
+ - Enable the repository for Zenodo integration.
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+
+### Task 2: **Create a GitHub Release and mint a DOI**
+
+1. Go to your repository on GitHub.
+1. Click on "Releases" then "Draft a new release".
+1. Choose the tag `v1.0.0` from the list 
+1. Fill in the release title and description.
+1. Click "Publish release".
+1. Go to the Zenodo sandbox and mint a DOI
+:::
+::::
+:::::
+
+# Jobs!
+
+{{< include _job-advertizement_2.qmd >}}
