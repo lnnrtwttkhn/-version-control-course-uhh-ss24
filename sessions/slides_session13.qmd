@@ -1,0 +1,97 @@
+---
+title: "Session 11: Graphical User Interfaces"
+date: 2024-07-01
+format: revealjs
+metadata-files:
+  - _slides.yml
+---
+
+# Schedule
+
+## Schedule
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+
+# Last session: Tags, Releases and Publishing
+
+## Last session: Tags, Releases and Publishing
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
+
+## Your questions about the last session?
+
+## This session's learning objectives
+
+{{< include ../objectives/_objectives-gui.qmd >}}
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
+```
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUI´s"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
+:::
+
+::: fragment
+Ask questions!
+
+Let's *git* started!
+:::
+
+## Implementation Exercises
+
+:::: {.column width="50%"}
+::: fragment
+
+Task 1: **Create a Tag**
+
+In your recipe repository, create an annotated tag named v1.0.0.
+
+:::
+
+:::: {.column width="50%"}
+::: fragment
+
+Task 2: Create a GitHub Release
+
+Go to your repository on GitHub.
+Click on "Releases" then "Draft a new release".
+Choose the tag v1.0.0 from the list or create a new tag.
+Fill in the release title and description.
+Click "Publish release".
+:::
+:::
+:
+
+:::: {.column width="50%"}
+::: fragment
+
+Task 3: Link a Zenodo Record
+
+Connect your GitHub repository to Zenodo.
+Follow Zenodo’s instructions to link your repository:
+Go to Zenodo and log in.
+Go to the “GitHub” tab in your Zenodo settings.
+Enable the repository for Zenodo integration.
+Create a new release on GitHub to trigger Zenodo to archive your repository and mint a DOI.
+:::
+:::
+::::
+
