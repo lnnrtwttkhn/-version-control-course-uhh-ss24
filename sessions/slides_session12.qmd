@@ -43,7 +43,28 @@ create_schedule()
 
 :::
 
-# Tags and releases - in Research
+## Example: MATLAB code for an experiment
+
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.4305888.svg){height="100%"}](https://zenodo.org/badge/latestdoi/310215989)
+
+{{< fa display >}} <https://github.com/lnnrtwttkhn/highspeed-task>
+
+{{< fa display >}} See [Code Availability Statement](https://www.nature.com/articles/s41467-021-21970-2#code-availability) of paper:
+
+> All code to run the behavioral task can be found at (<https://github.com/lnnrtwttkhn/highspeed-task>; <https://doi.org/10.5281/zenodo.4305888>)
+
+::: {.fragment}
+
+### Advantages
+
+1. **Reusability:** Code is on GitHub and can be forked, reviewed, reused, extended, etc.
+1. **Reproducibility:** The *specific* version that was used in the original study is tagged.
+1. **Modularity:** Other researchers can independently reuse only the code for the experimental task.
+1. **Backup:** Code can be accessedd in *at least* two locations.
+1. **Independence:** If GitHub disappears, a copy of the code is still on Zenodo.
+1. **Recognition:** Other researchers can cite the code + views and downloads metrics on Zenodo.
+
+:::
 
 ## This session's learning objectives
 
