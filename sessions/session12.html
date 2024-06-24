@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-01-19">
+<meta name="dcterms.date" content="2024-06-24">
 
-<title>Version Control of Code and Data - Advanced GitHub</title>
+<title>Version Control of Code and Data - Tags, Releases &amp; Publication</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,7 +137,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a>
+  <ul>
+  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -151,29 +156,25 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Advanced GitHub</h1>
+<h1 class="title">Tags, Releases &amp; Publication</h1>
 <p class="subtitle lead">Session 12</p>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 19, 2024</p>
+      <p class="date">June 24, 2024</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/slides_session12.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session12.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
-  <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" class="about-link" rel="" target="">
     <i class="bi bi-book"></i>
-     <span class="about-link-text">Chapter: GitHub</span>
-  </a>
-  <a href="https://version-control-github.formr.org" class="about-link" rel="" target="">
-    <i class="bi bi-input-cursor-text"></i>
-     <span class="about-link-text">Exercises</span>
+     <span class="about-link-text">Tags &amp; Releases</span>
   </a>
 </div>
       <div class="about-contents"><div id="hero-heading">
@@ -182,12 +183,65 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
+<section id="this-session" class="level1">
+<h1>This session</h1>
+<p>In this session, you will complete the following tasks:</p>
+<ol type="1">
+<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html">“Tags &amp; Releases”</a> in the Version Control Book.</li>
+<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands in the chapter and play around with them.</li>
+</ol>
+<section id="recipes-project" class="level2">
+<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created an annotated Tag and a GitHub Release.</li>
+<li>You linked the release to Zenodo’s sandbox and minted a DOI.</li>
+</ol>
+</section>
+<section id="learning-objectives" class="level2">
+<h2 data-anchor-id="learning-objectives">Learning objectives</h2>
+<p><span class="emoji" data-emoji="bulb">💡</span> Understand why Git tags matter in version control and project management <br> <span class="emoji" data-emoji="bulb">💡</span> Learn when to use lightweight or annotated tags and how to apply them <br> <span class="emoji" data-emoji="bulb">💡</span> Get the hang of pushing and pulling tags in Git for seamless teamwork <br> <span class="emoji" data-emoji="bulb">💡</span> Explore how GitHub releases complement Git tags <br> <span class="emoji" data-emoji="bulb">💡</span> Discover how to use Zenodo to make your repository citable</p>
+</section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="How can I download the slides as PDF?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How can I download the slides as PDF?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To print the slides to PDF, do the following:</p>
+<ol type="1">
+<li>Toggle into Print View using the <kbd>E</kbd> key (or using the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#navigation-menu">Navigation Menu</a>).</li>
+<li>Open the in-browser print dialog (CTRL/CMD+P).</li>
+<li>Change the <strong>Destination</strong> setting to <strong>Save as PDF</strong>.</li>
+<li>Change the <strong>Layout</strong> to <strong>Landscape</strong>.</li>
+<li>Change the <strong>Margins</strong> to <strong>None</strong>.</li>
+<li>Enable the <strong>Background graphics</strong> option.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>Note: This feature has been confirmed to work in <a href="https://google.com/chrome">Google Chrome</a>, <a href="https://www.chromium.org/Home">Chromium</a> as well as in <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>.</p>
+<p>Here’s what the Chrome print dialog would look like with these settings enabled:</p>
+<p><img src="../images/print-to-pdf.png" class="border img-fluid" alt="Screenshot of Chrome print dialog with the first slide/page of 43 shown on the left, and print options on the right. The Destination print option has Save as PDF selected."></p>
+<p>These instructions were copied from the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf">Quarto documentation</a> (<a href="https://opensource.org/license/mit/">MIT License</a>) and slightly modified.</p>
+</div>
+</div>
+</div>
 <iframe width="100%" height="500" src="slides_session12.html"></iframe>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
