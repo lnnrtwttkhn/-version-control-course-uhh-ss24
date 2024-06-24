@@ -66,6 +66,19 @@ create_schedule()
 
 :::
 
+## Example 2: Code releases in software development
+
+{{< fa display >}} <https://github.com/lnnrtwttkhn/version-control-book/releases/tag/v1.0>
+
+::: {.fragment}
+
+### Advantages (non-exhaustive list)
+
+- Automated Change Log based on PR titles
+- Automated appreciation of new contributors
+
+:::
+
 ## This session's learning objectives
 
 {{< include ../objectives/_objectives-tags-releases.qmd >}}
