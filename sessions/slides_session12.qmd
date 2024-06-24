@@ -147,3 +147,58 @@ At the end of this session, you should have accomplished the following:
 :::
 ::::
 :::::
+
+## Next week: Practice with GUIs (+ course evaluation!)
+
+... following [popular request](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/labels/feedback)
+
+::: columns
+::: {.column width="35%"}
+::: fragment
+### Integrated Development Environments (IDEs)
+
+#### RStudio
+
+[![](../images/gui-rstudio.png)](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/)
+:::
+
+::: fragment
+#### MATLAB
+
+[![](../images/gui-matlab.png)](https://de.mathworks.com/help/matlab/matlab_prog/branch-and-merge-with-git.html)
+:::
+:::
+
+::: {.column width="35%"}
+::: fragment
+### Git Clients
+
+### GitKraken
+
+[![](../images/gui-gitkraken.png)](https://jonbunator.github.io/gitkraken-custom-themes/)
+:::
+
+::: fragment
+### GitHub Desktop
+
+[![](../images/gui-githubdesktop.png)](https://desktop.github.com/)
+:::
+:::
+
+::: {.column width="25%"}
+::: fragment
+### Mobile
+
+#### Working Copy (iOS)
+
+[![](../images/gui-workingcopy.png)](https://workingcopyapp.com/users-guide)
+:::
+:::
+:::
+
+## Homework
+
+1. Sign-up for [GitHub Education](https://education.github.com/discount_requests/application) to get access to the Student Developer Pack
+1. Install [GitKraken](https://www.gitkraken.com/github-student-developer-pack) and sign-up with your GitHub account
+1. :rocket: Optional: Check out other Git GUIs that you'd like to try (e.g., RStudio)
+
