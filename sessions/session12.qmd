@@ -1,5 +1,5 @@
 ---
-title: "Tags & Releases"
+title: "Tags, Releases & Publication"
 subtitle: "Session 12"
 date: 2024-06-24
 about:
@@ -36,8 +36,8 @@ As always:
 
 At the end of this session, you should have accomplished the following:
 
-1. Created an annotated Tag and a GitHub release
-2. Linked the release to Zenodo´s sandbox and minted a DOI
+1. You created an annotated Tag and a GitHub Release.
+2. You linked the release to Zenodo's sandbox and minted a DOI.
 
 ## Learning objectives
 

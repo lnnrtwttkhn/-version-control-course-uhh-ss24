@@ -1,5 +1,5 @@
 ---
-title: "Session 12: Tags & Releases"
+title: "Session 12: Tags, Releases & Publication"
 date: 2024-06-24
 format: revealjs
 metadata-files:
@@ -33,17 +33,15 @@ create_schedule()
 
 ## Today's topic: Tags & Releases 
 
-::: fragment
-
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html>
+{{< fa display >}} <https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html>
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
 ```
 
-:::
+# Tags & Releases: Examples
 
-## Example: MATLAB code for an experiment
+## Example 1: MATLAB code for an experimental task in research
 
 [![](https://zenodo.org/badge/DOI/10.5281/zenodo.4305888.svg){height="100%"}](https://zenodo.org/badge/latestdoi/310215989)
 
@@ -86,9 +84,9 @@ create_schedule()
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html) in the Version Control Book.
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["Tags & Releases"](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
-3.  **Note:** Please complete the implementation exercises on the next slide
+3.  **Note:** Please complete the implementation exercises on the next slide.
 :::
 
 ::: fragment
@@ -99,6 +97,13 @@ Let's *git* started!
 
 # Demo exercise 
 
+## `recipes` project
+
+At the end of this session, you should have accomplished the following:
+
+1. You created an annotated Tag and a GitHub Release.
+2. You linked the release to Zenodo's sandbox and minted a DOI.
+
 ## Implementation Exercises
 
 ::::: {.columns}
@@ -108,7 +113,9 @@ Let's *git* started!
 
 ### Task 1: **Create a Tag**
 
-1. Create an annotated tag on the main branch in your recipe repo named `v1.0.0.`
+1. Preparation: Clean-up your repo, merge any changes that you still want to integrate
+1. Publish your repo: Go to "Settings", click "General", scroll down and change repository visibility
+1. Create an annotated tag on the `main` branch in your recipe repo named `v1.0.0.`
 1. Push the Tag to GitHub
 
 :::
@@ -120,8 +127,8 @@ Let's *git* started!
 ### Task 2: **Create a Zenodo account and link it to GitHub**
 
 1. Create a Zenodo account by visiting the Zenodo website and signing up.
-1. Link your GitHub account to Zenodo:
-1. Go to the GitHub section in the [Zenodo sandbox](https://sandbox.zenodo.org) and enable syncing your recipe repository
+1. Link your GitHub account to Zenodo
+1. Go to the GitHub section in the [Zenodo sandbox](https://sandbox.zenodo.org) and enable syncing your `recipes` repository
 :::
 ::::
 
@@ -140,7 +147,3 @@ Let's *git* started!
 :::
 ::::
 :::::
-
-# Jobs!
-
-{{< include _job-advertizement_2.qmd >}}
