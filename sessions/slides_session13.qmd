@@ -63,18 +63,18 @@ Ask questions!
 Let's *git* started!
 :::
 
-## Implementation Exercises
+## Implementation Exercise
 
-####  Collaborate with pull requests (using "GitHub flow")
+####  Collaborate with pull requests (using "GUI´s")
 
 1. Find a partner.
-1. Using a GUI, clone their repository if not already done (pull).
+1. Using a GUI, clone their repository if not already done (and pull the newest version).
 1. Create a new branch.
-1. Create a new file called crazy_recipe.txt or crazy_recipe.qmd.
+1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
 1. Input three random ingredients and two kitchen utensils.
 1. Add and commit the changes.
 1. Create a Pull Request.
-1. Review the Pull Request and create a coherent recipe.
+1. Review the Pull Request from your partner and create a coherent recipe.
 1. Merge the Pull Request.
 
 ## Extra task (missed 2 > classes)
