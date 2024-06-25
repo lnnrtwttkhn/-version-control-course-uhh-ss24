@@ -47,6 +47,8 @@ create_schedule()
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
 
+# Demoing GitKraken/Rstudio 
+
 ## Your turn
 
 ::: incremental
@@ -63,6 +65,17 @@ Let's *git* started!
 
 ## Implementation Exercises
 
+####  Collaborate with pull requests (using "GitHub flow")
+
+1. Find a partner.
+1. Using a GUI, clone their repository if not already done (pull).
+1. Create a new branch.
+1. Create a new file called crazy_recipe.txt or crazy_recipe.qmd.
+1. Input three random ingredients and two kitchen utensils.
+1. Add and commit the changes.
+1. Create a Pull Request.
+1. Review the Pull Request and create a coherent recipe.
+1. Merge the Pull Request.
 
 ## Extra task (missed 2 > classes)
 
