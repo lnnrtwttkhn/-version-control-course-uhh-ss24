@@ -79,5 +79,7 @@ Let's *git* started!
 
 ## Extra task (missed 2 > classes)
 
+#### Merge our PR to your repo
 
+1. Clean up the PR to your repository and merge afterwards
 
