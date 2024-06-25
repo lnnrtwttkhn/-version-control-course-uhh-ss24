@@ -29,6 +29,12 @@ create_schedule()
 
 ## Your questions about the last session?
 
+# Your tasks completion
+
+# Quiz participation
+
+# `recipe` repository tasks
+
 ## This session's learning objectives
 
 {{< include ../objectives/_objectives-gui.qmd >}}
@@ -57,41 +63,8 @@ Let's *git* started!
 
 ## Implementation Exercises
 
-:::: {.column width="50%"}
-::: fragment
 
-Task 1: **Create a Tag**
+## Extra task (missed 2 > classes)
 
-In your recipe repository, create an annotated tag named v1.0.0.
 
-:::
-
-:::: {.column width="50%"}
-::: fragment
-
-Task 2: Create a GitHub Release
-
-Go to your repository on GitHub.
-Click on "Releases" then "Draft a new release".
-Choose the tag v1.0.0 from the list or create a new tag.
-Fill in the release title and description.
-Click "Publish release".
-:::
-:::
-:
-
-:::: {.column width="50%"}
-::: fragment
-
-Task 3: Link a Zenodo Record
-
-Connect your GitHub repository to Zenodo.
-Follow Zenodo’s instructions to link your repository:
-Go to Zenodo and log in.
-Go to the “GitHub” tab in your Zenodo settings.
-Enable the repository for Zenodo integration.
-Create a new release on GitHub to trigger Zenodo to archive your repository and mint a DOI.
-:::
-:::
-::::
 
