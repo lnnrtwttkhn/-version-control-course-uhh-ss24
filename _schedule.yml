@@ -118,12 +118,16 @@ session12:
     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
 session13:
   date: 2024-07-01
-  title: "Repetition and Practice"
+  title: "Cancelled"
   contents:
-    - "Repetition and Practice"
+    - "Cancelled"
 session14:
   date: 2024-07-08
   title: "Summary & Wrap-Up"
-  contents: "Summary & Wrap-Up"
-  commands: ".."
+  contents:
+    - "Repetition and Practice"
+    - "Introduction to using GUI´s"
+    - "Course evaluation"
+  reading:
+    - "[Graphical User Interfaces](https://lennartwittkuhn.com/version-control-book/chapters/gui.html)"
   
