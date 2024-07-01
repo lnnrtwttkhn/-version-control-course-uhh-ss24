@@ -1,16 +1,12 @@
 ---
 title: "Session 14: Summary & Wrap-Up"
-date: 2024-02-02
+date: 2024-07-08
 format: revealjs
 metadata-files:
   - _slides.yml
 ---
 
-## How are you today?
-
-::: fragment
-![](../images/moodscale_14.jpeg){width="50%"}
-:::
+# Schedule
 
 ## Schedule
 
@@ -22,64 +18,69 @@ metadata-files:
 create_schedule()
 ```
 
-## Survey Participation
+# Last session: Tags, Releases and Publishing
 
-::: fragment
--   **Thank you** for completing the surveys!
-:::
+## Last session: Tags, Releases and Publishing
 
-## Last week: DataLad Talk
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html" title="Version Control Book"></iframe>
+```
 
--   **Question/Comments?**
+## Your questions about the last session?
+
+# Your tasks completion
+
+# Quiz participation
+
+# `recipe` repository tasks
+
+## This session's learning objectives
+
+{{< include ../objectives/_objectives-gui.qmd >}}
+
+## Today's chapter
+
+{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
 
 ```{=html}
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html" title="DataLad Talk"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
-## Seminar evaluation
 
--   **Thank you** for completing the evaluation
+# Demoing GitKraken/Rstudio 
+
+## Your turn
+
+::: incremental
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUI´s"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
+3.  **Note:** Please complete the implementation exercises on the next slide
+:::
 
 ::: fragment
--   Any **more suggested improvements?**
+Ask questions!
+
+Let's *git* started!
 :::
 
-## Open Questions about Git or GitHub?
+## Implementation Exercise
 
-## Reviewing your pull requests
+####  Collaborate with pull requests (using "GUI´s")
 
-## Kahoot {{< fa gamepad >}}
+1. Find a partner.
+1. Using a GUI, clone their repository if not already done (and pull the newest version).
+1. Create a new branch.
+1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
+1. Input three random ingredients and two kitchen utensils.
+1. Add and commit the changes.
+1. Create a Pull Request.
+1. Review the Pull Request from your partner and create a coherent recipe.
+1. Merge the Pull Request.
 
-::: {.notes}
-Link: https://create.kahoot.it/details/e4f54859-c04d-4d74-a314-29eb72e9eb50
-:::
+# Course evaluation
 
-## Logo Reveal
+## Extra task (missed 2 > classes)
 
-:::: columns
-::: {.column width="15%"}
-::: fragment
-![](../images/git-logo.png)
-:::
-:::
-::: {.column width="15%"}
-::: fragment
-![](../images/uhh-logo.png)
-:::
-:::
-::: {.column width="15%"}
-::: {style="font-size: 500%;"}
-::: fragment
-🪄
-:::
-:::
-:::
-::::
+#### Merge our PR to your repo
 
-:::: columns
-::: {.column width="50%"}
-::: fragment
-![](../images/uhh_git_logo.jpg){fig-align="left"}
-:::
-:::
-::::
-
+1. Clean up the PR to your repository and merge afterwards
