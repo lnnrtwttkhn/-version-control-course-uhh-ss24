@@ -165,6 +165,95 @@ We are here to help if you are stuck.
 1. Merge the Pull Request.
 :::
 
+# There's more ...
+
+## Graphical User Interfaces (GUIs) for Git
+
+::: columns
+::: {.column width="35%"}
+::: fragment
+### Integrated Development Environments (IDEs)
+
+#### RStudio
+
+[![](../images/gui-rstudio.png)](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/)
+:::
+
+::: fragment
+#### MATLAB
+
+[![](../images/gui-matlab.png)](https://de.mathworks.com/help/matlab/matlab_prog/branch-and-merge-with-git.html)
+:::
+:::
+
+::: {.column width="35%"}
+::: fragment
+### Git Clients
+
+### GitKraken
+
+[![](../images/gui-gitkraken.png)](https://jonbunator.github.io/gitkraken-custom-themes/)
+:::
+
+::: fragment
+### GitHub Desktop
+
+[![](../images/gui-githubdesktop.png)](https://desktop.github.com/)
+:::
+:::
+
+::: {.column width="25%"}
+::: fragment
+### Mobile
+
+#### Working Copy (iOS)
+
+[![](../images/gui-workingcopy.png)](https://workingcopyapp.com/users-guide)
+:::
+:::
+:::
+
+## Continuous Integration & Deployment (CI/CD)
+
+::::: columns
+:::: {.column width="65%"}
+![from [Suresoft](https://suresoft.dev/knowledge-hub/continuous-integration/gitlab-ci/)](../images/gitlab-ci.jpg)
+::::
+:::: {.column width="35%"}
+#### Example: Lennart's `recipes` repo
+
+- Automated spell check
+- Rebuilding of project website
+
+{{< fa display >}} [github.com/lnnrtwttkhn/recipes](https://github.com/lnnrtwttkhn/recipes/)
+::::
+:::::
+
+## Version Control for *data*: DataLad
+
+::::: columns
+:::: {.column width="55%"}
+::: fragment
+... for **data** (binary files) ![© Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)
+:::
+::::
+:::: {.column width="45%"}
+::: {.fragment}
+Sadly, Git does not handle large files well.
+![](../images/git-snapshot.png){fig-align="center" width=100%}
+:::
+::: {.fragment}
+::: {layout-ncol=2}
+![[datalad.org](https://www.datalad.org/) (from the [DataLad Handbook](https://handbook.datalad.org/en/latest/index.html) by Wagner et al.)](../images/datalad-logo-full.svg)
+
+[![](../images/datalad-handbook-logo.svg)](https://handbook.datalad.org/en/latest/)
+:::
+:::
+::::
+:::::
+
+# Jobs
+
 ## Jobs
 
 ::: {layout-ncol=2}
