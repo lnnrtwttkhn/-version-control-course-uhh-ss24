@@ -35,8 +35,7 @@ As always:
 
 At the end of this session, you should have accomplished the following:
 
-1. Successfully added a recipe to [Lennart's recipe project](https://github.com/lnnrtwttkhn/recipes) (for more details, see [slides](#slides))
-1. Cleaned up your repository, like detailed in your received GitHub issue.
+
 
 ## Learning objectives
 

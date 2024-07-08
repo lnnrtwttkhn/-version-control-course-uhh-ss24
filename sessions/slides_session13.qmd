@@ -29,6 +29,12 @@ create_schedule()
 
 ## Your questions about the last session?
 
+# Your tasks completion
+
+# Quiz participation
+
+# `recipe` repository tasks
+
 ## This session's learning objectives
 
 {{< include ../objectives/_objectives-gui.qmd >}}
@@ -40,6 +46,8 @@ create_schedule()
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
+
+# Demoing GitKraken/Rstudio 
 
 ## Your turn
 
@@ -55,43 +63,23 @@ Ask questions!
 Let's *git* started!
 :::
 
-## Implementation Exercises
+## Implementation Exercise
 
-:::: {.column width="50%"}
-::: fragment
+####  Collaborate with pull requests (using "GUI´s")
 
-Task 1: **Create a Tag**
+1. Find a partner.
+1. Using a GUI, clone their repository if not already done (and pull the newest version).
+1. Create a new branch.
+1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
+1. Input three random ingredients and two kitchen utensils.
+1. Add and commit the changes.
+1. Create a Pull Request.
+1. Review the Pull Request from your partner and create a coherent recipe.
+1. Merge the Pull Request.
 
-In your recipe repository, create an annotated tag named v1.0.0.
+## Extra task (missed 2 > classes)
 
-:::
+#### Merge our PR to your repo
 
-:::: {.column width="50%"}
-::: fragment
-
-Task 2: Create a GitHub Release
-
-Go to your repository on GitHub.
-Click on "Releases" then "Draft a new release".
-Choose the tag v1.0.0 from the list or create a new tag.
-Fill in the release title and description.
-Click "Publish release".
-:::
-:::
-:
-
-:::: {.column width="50%"}
-::: fragment
-
-Task 3: Link a Zenodo Record
-
-Connect your GitHub repository to Zenodo.
-Follow Zenodo’s instructions to link your repository:
-Go to Zenodo and log in.
-Go to the “GitHub” tab in your Zenodo settings.
-Enable the repository for Zenodo integration.
-Create a new release on GitHub to trigger Zenodo to archive your repository and mint a DOI.
-:::
-:::
-::::
+1. Clean up the PR to your repository and merge afterwards
 
