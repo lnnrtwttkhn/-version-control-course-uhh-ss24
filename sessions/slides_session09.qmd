@@ -33,7 +33,7 @@ create_schedule()
 
 ## Last session's learning objectives
 
-{{< include ../objectives/_objectives-github-intro.qmd >}}
+{{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
 ## Questions about the last session?
 

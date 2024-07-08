@@ -74,7 +74,7 @@ Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for th
 ## This weeks learning objectives
 
 ::: {.fragment}
-{{< include ../objectives/_objectives-github-intro.qmd >}
+{{< include ../objectives/_objectives-remotes-intro.qmd >}
 :::
 
 ## Today's chapter

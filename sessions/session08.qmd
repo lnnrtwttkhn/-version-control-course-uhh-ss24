@@ -47,7 +47,7 @@ At the end of this session, you should have accomplished the following:
 
 ## Learning objectives
 
-{{< include ../objectives/_objectives-github-intro.qmd >}}
+{{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
 ## Email
 
