@@ -95,13 +95,7 @@ Let's *git* started!
 1. Create a new branch.
 1. Create a new file called `crazy_recipe.txt` or `crazy_recipe.qmd`.
 1. Input three random ingredients and two kitchen utensils.
-1. Add and commit the changes.
+1. Add, commit and push the changes.
 1. Create a Pull Request.
 1. Review the Pull Request from your partner and create a coherent recipe.
 1. Merge the Pull Request.
-
-## Extra task (missed 2 > classes)
-
-#### Merge our PR to your repo
-
-1. Clean up the PR to your repository and merge afterwards
