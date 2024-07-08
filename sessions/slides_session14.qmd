@@ -39,6 +39,25 @@ Check your mailbox for the link to the evaluation form!
 
 # `recipe` repository tasks
 
+# This session
+
+## Your feedack
+
+... following [popular request](https://github.com/lnnrtwttkhn/version-control-course-uhh-ss24/labels/feedback)
+
+> [...] sometimes I loose track of where I am in the Git/GitHub Space.
+Maybe you can create a "map" on how the things are related and which codes get me from one point to another?
+
+> [...] Could you explain how Github enables us to see the version history and how we can access files at different time points?
+
+> [...] For the last seminar sessions it might be interesting to look more into GUIs for Git.
+
+> [...] what about GUIs?
+Which one has which benefits and what are payment options?
+Git kraken looked really promising, is it worth it?
+
+> [...] I definitely support the plan to practice what we've learned so far so that I don't forget about it once the semester is over.
+
 ## This session's learning objectives
 
 {{< include ../objectives/_objectives-gui.qmd >}}
