@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-01-26">
+<meta name="dcterms.date" content="2024-07-01">
 
-<title>Version Control of Code and Data - Introduction to DataLad - Talk by Dr.&nbsp;Adina Wagner</title>
+<title>Version Control of Code and Data - Introduction to Graphical User Interfaces</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -137,14 +137,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a>
+  <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a>
   <ul>
-  <li><a href="#datalad---decentralized-management-of-digital-objects-for-open-science" id="toc-datalad---decentralized-management-of-digital-objects-for-open-science" class="nav-link" data-scroll-target="#datalad---decentralized-management-of-digital-objects-for-open-science">DataLad - Decentralized Management of Digital Objects for Open Science</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   </ul></li>
-  <li><a href="#what-is-datalad" id="toc-what-is-datalad" class="nav-link" data-scroll-target="#what-is-datalad">What is DataLad?</a></li>
-  <li><a href="#announcement-email" id="toc-announcement-email" class="nav-link" data-scroll-target="#announcement-email">Announcement Email</a></li>
   </ul>
 </nav>
     </div>
@@ -158,41 +155,25 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introduction to DataLad - Talk by Dr.&nbsp;Adina Wagner</h1>
+<h1 class="title">Introduction to Graphical User Interfaces</h1>
 <p class="subtitle lead">Session 13</p>
 </div>
 <div class="quarto-title-meta">
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 26, 2024</p>
+      <p class="date">July 1, 2024</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://cloud.uni-hamburg.de/s/GQZ9RsgRPar3yj4/download/datalad-talk.ics" class="about-link" rel="" target="">
-    <i class="bi bi-calendar-date"></i>
-     <span class="about-link-text">Add to calendar!</span>
-  </a>
-  <a href="https://files.inm7.de/adina/talks/html/hamburg_2024.html#/" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session13.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
-  <a href="https://github.com/datalad-handbook/datalad-course/blob/main/html/hamburg_2024.html" class="about-link" rel="" target="">
-    <i class="bi bi-file-code"></i>
-     <span class="about-link-text">Source</span>
-  </a>
-  <a href="https://www.datalad.org/" class="about-link" rel="" target="">
-    <i class="bi bi-terminal"></i>
-     <span class="about-link-text">DataLad</span>
-  </a>
-  <a href="https://handbook.datalad.org/en/latest/" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" class="about-link" rel="" target="">
     <i class="bi bi-book"></i>
-     <span class="about-link-text">DataLad Handbook</span>
-  </a>
-  <a href="https://www.youtube.com/watch?v=IN0vowZ67vs" class="about-link" rel="" target="">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">What is DataLad?</span>
+     <span class="about-link-text">Chapter: GUI´s</span>
   </a>
 </div>
       <div class="about-contents"><div id="hero-heading">
@@ -201,61 +182,57 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
-<section id="overview" class="level2">
-<h2 data-anchor-id="overview">Overview</h2>
-<ul>
-<li><i class="fa-solid fa-chalkboard" aria-label="chalkboard"></i> <strong>Title:</strong> “DataLad - Decentralized Management of Digital Objects for Open Science” (see <a href="#abstract">abstract</a>)</li>
-<li><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Speaker:</strong> <a href="https://www.adina-wagner.com/">Dr.&nbsp;Adina Wagner</a></li>
-<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Friday, 26th of January 2024</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> 10:15 to 11:45 am (90 minutes)</li>
-<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Place:</strong> Hybrid (registration details below)
-<ul>
-<li>In person at Von-Melle-Park 5, 20146 Hamburg, William Stern Room (Room 4054)</li>
-<li>Zoom (details will be send after registration)</li>
-</ul></li>
-<li><i class="fa-solid fa-language" aria-label="language"></i> <strong>Language:</strong> English</li>
-<li><i class="fa-solid fa-tag" aria-label="tag"></i> <strong>Context:</strong> Part of the <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24">course “Version Control of Code &amp; Data”</a></li>
-<li><i class="fa-solid fa-gem" aria-label="gem"></i> <strong>Thanks:</strong> Supported by the the <a href="https://www.isa.uni-hamburg.de/en/ddlitlab.html">Digital &amp; Data Literacy in Teaching Lab</a></li>
-<li><i class="fa-solid fa-file-signature" aria-label="file-signature"></i> <strong>Registration:</strong> To register, please send an email to the organizer <a href="mailto:lennart.wittkuhn@uni-hamburg.de">Dr.&nbsp;Lennart Wittkuhn</a></li>
-</ul>
+<section id="this-session" class="level1">
+<h1>This session</h1>
+<p>In this session, you will complete the following tasks:</p>
+<ol type="1">
+<li>Complete the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/gui.html">“GUI’s”</a> in the Version Control Book.</li>
+<li>Complete the exercises for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands in the chapter and play around with them.</li>
+</ol>
+<section id="learning-objectives" class="level2">
+<h2 data-anchor-id="learning-objectives">Learning objectives</h2>
+<p><span class="emoji" data-emoji="bulb">💡</span> You understand the benefits of Git GUIs compared to the command line<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least two Git operations that can be considered easier in a GUI compared to the command line<br> <span class="emoji" data-emoji="bulb">💡</span> You try out different GUIs and become familiar with their features<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to manage branches in a GUI<br></p>
 </section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
-<ul>
-<li><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://files.inm7.de/adina/talks/html/hamburg_2024.html#/">HTML version of the slides</a></li>
-<li><i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i> <a href="https://zenodo.org/doi/10.5281/zenodo.10556596">PDF version of the slides</a></li>
-</ul>
-<iframe width="100%" height="600" src="../images/datadad-wagner-hamburg.pdf" title="Slides"></iframe>
-</section>
-<section id="abstract" class="level2">
-<h2 data-anchor-id="abstract">Abstract</h2>
-<section id="datalad---decentralized-management-of-digital-objects-for-open-science" class="level4">
-<h4 data-anchor-id="datalad---decentralized-management-of-digital-objects-for-open-science">DataLad - Decentralized Management of Digital Objects for Open Science</h4>
-<p>With a general awareness of a reproducibility crisis in many scientific areas and increasing importance of research data management in science and policy making, data-driven fields require convenient and scalable data management solutions. Standing on the shoulders of <a href="https://git-scm.com">Git</a> and git-annex (<a href="https://git-annex.branchable.com">git-annex.branchable.com</a>, Joey Hess), <a href="https://www.datalad.org">DataLad</a> provides a decentralized solution that enables the joint management of code, data, and complete containerized computational environments in a scalable and distributed fashion. With features such as unambiguous version control, a wide spectrum of data transport mechanisms, convenient provenance capture, and re-execution for verification or as an alternative to storage and transport, it enables and facilitates many aspects of open and reproducible science: collaboration, sharing, analytical transparency, computational reproducibility of digital research objects, and disk-space aware storage and computing workflows on infrastructure that ranges from personal laptops up to supercomputers.</p>
-</section>
-</section>
-<section id="what-is-datalad" class="level2">
-<h2 data-anchor-id="what-is-datalad">What is DataLad?</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/IN0vowZ67vs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="announcement-email" class="level2">
-<h2 data-anchor-id="announcement-email">Announcement Email</h2>
-<p>Dear all,</p>
-<p>we cordially invite you to a <strong>hybrid talk by <a href="https://www.adina-wagner.com/">Dr.&nbsp;Adina Wagner</a></strong> on <strong>“DataLad - Decentralized Management of Digital Objects for Open Science”</strong>.</p>
-<ul>
-<li><strong>Date:</strong> Friday, 26th of January 2024</li>
-<li><strong>Time:</strong> 10:15 to 11:45 am (90 minutes)</li>
-<li><strong>Place:</strong> Hybrid, in person at Von-Melle-Park 5, 20146 Hamburg, William Stern Room (Room 4054) and via Zoom</li>
-<li><strong>Registration:</strong> To register, please send an email to the organizer <a href="mailto:lennart.wittkuhn@uni-hamburg.de">Dr.&nbsp;Lennart Wittkuhn</a>. Please indicate whether you would like to join in-person or online.</li>
-<li><strong>Details:</strong> For more information, please visit the <a href="https://lennartwittkuhn.com/version-control-course-uhh-ws23/sessions/session13.html">event website</a></li>
-</ul>
-<p>The link to the Zoom meeting will be sent to all registered participants a few days before the event.</p>
-<p>The talk is part of the <a href="https://lennartwittkuhn.com/version-control-course-uhh-ss24">course on “Version Control of Code &amp; Data”</a>, generously supported by the <a href="https://www.isa.uni-hamburg.de/en/ddlitlab.html">Digital &amp; Data Literacy in Teaching Lab</a> program at University of Hamburg.</p>
-<p><strong>Abstract</strong></p>
-<p>With a general awareness of a reproducibility crisis in many scientific areas and increasing importance of research data management in science and policy making, data-driven fields require convenient and scalable data management solutions. Standing on the shoulders of Git and git-annex (git-annex.branchable.com, Joey Hess), DataLad provides a decentralized solution that enables the joint management of code, data, and complete containerized computational environments in a scalable and distributed fashion. With features such as unambiguous version control, a wide spectrum of data transport mechanisms, convenient provenance capture, and re-execution for verification or as an alternative to storage and transport, it enables and facilitates many aspects of open and reproducible science: collaboration, sharing, analytical transparency, computational reproducibility of digital research objects, and disk-space aware storage and computing workflows on infrastructure that ranges from personal laptops up to supercomputers.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="How can I download the slides as PDF?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+How can I download the slides as PDF?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To print the slides to PDF, do the following:</p>
+<ol type="1">
+<li>Toggle into Print View using the <kbd>E</kbd> key (or using the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#navigation-menu">Navigation Menu</a>).</li>
+<li>Open the in-browser print dialog (CTRL/CMD+P).</li>
+<li>Change the <strong>Destination</strong> setting to <strong>Save as PDF</strong>.</li>
+<li>Change the <strong>Layout</strong> to <strong>Landscape</strong>.</li>
+<li>Change the <strong>Margins</strong> to <strong>None</strong>.</li>
+<li>Enable the <strong>Background graphics</strong> option.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>Note: This feature has been confirmed to work in <a href="https://google.com/chrome">Google Chrome</a>, <a href="https://www.chromium.org/Home">Chromium</a> as well as in <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>.</p>
+<p>Here’s what the Chrome print dialog would look like with these settings enabled:</p>
+<p><img src="../images/print-to-pdf.png" class="border img-fluid" alt="Screenshot of Chrome print dialog with the first slide/page of 43 shown on the left, and print options on the right. The Destination print option has Save as PDF selected."></p>
+<p>These instructions were copied from the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf">Quarto documentation</a> (<a href="https://opensource.org/license/mit/">MIT License</a>) and slightly modified.</p>
+</div>
+</div>
+</div>
+<iframe width="100%" height="500" src="slides_session13.html"></iframe>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
