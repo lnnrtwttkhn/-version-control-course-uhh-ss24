@@ -51,9 +51,23 @@ Check your mailbox for the link to the evaluation form!
 
 **Deadline:** Please complete these tasks until **end of July**.
 
-# Quiz participation
+## Quiz participation
 
-# `recipe` repository tasks
+**In order to pass this course**, you should have completed all quizzes:
+
+1. [Command Line](https://version-control-cli.formr.org)
+1. [Git Basics](https://version-control-basics.formr.org)
+1. [Branches](https://version-control-branches.formr.org)
+1. [GitHub](https://version-control-github.formr.org)
+
+::: {.fragment}
+### How to verify participation
+
+1. At the end of the semester, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}) (Christine Manor), **not to us!**
+1. Our secretary sends us an unsorted list with codewords.
+1. We verify the quiz participation for each codeword and send Christine a list with codewords that completed all quizzes.
+1. Christine compares the codewords with your names and send us an unsorted list with names.
+:::
 
 # This session
 
