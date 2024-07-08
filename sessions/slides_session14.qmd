@@ -70,6 +70,7 @@ We will send our secretary a list of personal codewords and she will return a li
 1. You created a release of your `recipes` repository on GitHub.
 
 1. You completed all quizzes (see next slide).
+1. You completed the extra assignment (if necessary, see next slide).
 
 **Deadline:** Please complete these tasks until **end of July**.
 
@@ -90,6 +91,10 @@ We will send our secretary a list of personal codewords and she will return a li
 1. We verify the quiz participation for each codeword and send Christine a list with codewords that completed all quizzes.
 1. Christine compares the codewords with your names and send us an unsorted list with names.
 :::
+
+## Missed more than two sessions?
+
+We will send you an email with an extra assignment.
 
 # This session
 
