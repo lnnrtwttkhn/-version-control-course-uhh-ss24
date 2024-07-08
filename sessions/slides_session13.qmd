@@ -41,18 +41,18 @@ create_schedule()
 
 ## Today's chapter
 
-{{< fa brands internet-explorer >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
+{{< fa display >}} <https://lennartwittkuhn.com/version-control-book/chapters/gui.html>
 
 ```{=html}
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/gui.html" title="Version Control Book"></iframe>
 ```
 
-# Demoing GitKraken/Rstudio 
+# Demonstration: GitKraken/RStudio 
 
 ## Your turn
 
 ::: incremental
-1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUI´s"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+1.  {{< fa book-open >}} **Content Review**: Read the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
 2.  {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter! Play around! Have fun!.
 3.  **Note:** Please complete the implementation exercises on the next slide
 :::
@@ -65,7 +65,7 @@ Let's *git* started!
 
 ## Implementation Exercise
 
-####  Collaborate with pull requests (using "GUI´s")
+#### Collaborate with pull requests (using "GUIs")
 
 1. Find a partner.
 1. Using a GUI, clone their repository if not already done (and pull the newest version).
@@ -76,10 +76,3 @@ Let's *git* started!
 1. Create a Pull Request.
 1. Review the Pull Request from your partner and create a coherent recipe.
 1. Merge the Pull Request.
-
-## Extra task (missed 2 > classes)
-
-#### Merge our PR to your repo
-
-1. Clean up the PR to your repository and merge afterwards
-
