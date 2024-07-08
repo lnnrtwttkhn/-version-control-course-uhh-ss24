@@ -33,7 +33,23 @@ create_schedule()
 
 Check your mailbox for the link to the evaluation form!
 
-# Your tasks completion
+# Course requirements
+
+## Your tasks
+
+**In order to pass this course**, you should have accomplished the following tasks:
+
+1. You have a public `recipes` repository on GitHub.
+1. You added a text file (e.g., `.qmd` or `.txt`) with at least one recipe to the repository.
+1. You created a pull request in a partner's repository (e.g., adding a new recipe).
+1. You reviewed and merged the pull request of a partner in your `recipes` repository.
+1. You create a pull request in Lennart's `recipes` repository, you implemented all additional requests and your pull request was approved and merged by Lennart.
+1. You implemented the changes suggested by Konrad in your `recipes` repository and closed the issue.
+1. You created a release of your `recipes` repository on GitHub.
+
+1. You completed all quizzes (see next slide).
+
+**Deadline:** Please complete these tasks until **end of July**.
 
 # Quiz participation
 
