@@ -86,3 +86,20 @@ Enjoy the summer!
 Best wishes,
 
 Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
+
+## Email 2
+
+Dear ... and ... ,
+
+We noticed that you have missed more than two sessions of our course ""Track, organize and share your work: An introduction to Git for psychological research". To ensure you meet the course requirements, we kindly ask you to complete an additional exercise.
+
+Please work together to each add a recipe to your partner's repository following the GitHub flow.
+Detailed instructions can be found in [Session 9 slides](https://lennartwittkuhn.com/version-control-course-uhh-ss24/sessions/slides_session09.html#/implementation-exercises).
+
+Please complete this exercise by the end of July.
+\
+If you encounter any issues or have any questions, feel free to contact us directly via email.
+
+Best wishes,
+
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
