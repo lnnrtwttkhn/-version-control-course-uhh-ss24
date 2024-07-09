@@ -15,6 +15,9 @@ about:
       text: "Chapter: GUIs"
       href: https://lennartwittkuhn.com/version-control-book/chapters/gui.html
       aria-label: book
+editor: 
+  markdown: 
+    wrap: sentence
 ---
 
 ::: {#hero-heading}
@@ -24,12 +27,12 @@ about:
 
 In this session, you will complete the following tasks:
 
-1. Complete the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
-1. Complete the exercises for the [`recipes` project](#recipes-project).
+1.  Complete the chapter ["GUIs"](https://lennartwittkuhn.com/version-control-book/chapters/gui.html) in the Version Control Book.
+2.  Complete the exercises for the [`recipes` project](#recipes-project).
 
 As always:
 
-1. Try out the commands in the chapter and play around with them.
+1.  Try out the commands in the chapter and play around with them.
 
 ## Learning objectives
 
@@ -42,3 +45,44 @@ As always:
 ```{=html}
 <iframe width="100%" height=500 src="slides_session14.html"></iframe>
 ```
+## Email
+
+Dear course participants,
+
+Thank you for your good participation in the course "Track, organize and share your work: An introduction to Git for psychological research".
+We have a few important announcements and tasks for you to complete.
+
+First, please make sure to complete the course evaluation using the following link: https://evasys-online.uni-hamburg.de/evasys/online.php?p
+swd=NWSWC.
+\
+Your feedback is very valuable to us.
+
+Also, please remember our passing requirements (Quizzes and Repository tasks):
+
+Almost everyone has completed all the necessary quizzes.
+Attached to this email are the missing quizzes and their associated codewords.
+(Only the quizzes in bold text need to be completed to pass.) If anything seems incorrect, please let us know immediately.
+Additionally, please remember to send Christine an email with your codeword at sekretariat-luv.psych\@uni-hamburg.de.
+
+Most of you have also completed all implementation tasks in your own repository.
+To check your completion on GitHub: \
+1.
+Ensure your repository is public and all required files and pull requests are present.
+\
+2.
+Verify that you have created and merged the necessary pull requests.
+\
+3.
+Check that you have closed all relevant issues and implemented the suggested changes.
+\
+4.
+Confirm that you have created a release of your repository.
+
+We will review your repositories in a week, and you will receive an email if you have not already completed everything.
+
+That's all for now.
+Enjoy the summer!
+
+Best wishes,
+
+Lennart Wittkuhn (Instructor) & Konrad Pagenstedt (Teaching Assistant)
